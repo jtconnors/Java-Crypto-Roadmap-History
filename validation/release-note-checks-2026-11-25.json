@@ -1,0 +1,35 @@
+[
+  {
+    "version": "17.0.21+9",
+    "url": "https://www.oracle.com/java/technologies/javase/17-0-21-relnotes.html",
+    "capture_date": "2026-11-25",
+    "file": "baseline/release-note-evidence/17-0-21-relnotes.html.txt",
+    "sha256": "88dc069d6d2ffc01f64d5fa858ecd89670275f858ccef3e316be8d13832a1ec7",
+    "checked_terms": [
+      "Implement JEP 496",
+      "Implement JEP 497"
+    ]
+  },
+  {
+    "version": "21.0.13+10",
+    "url": "https://www.oracle.com/java/technologies/javase/21-0-13-relnotes.html",
+    "capture_date": "2026-11-25",
+    "file": "baseline/release-note-evidence/21-0-13-relnotes.html.txt",
+    "sha256": "eca282bff3f11df3420dba04596dedb81f79f552f63466fb1fd00910c9723ae5",
+    "checked_terms": [
+      "Implement JEP 496",
+      "Implement JEP 497"
+    ]
+  },
+  {
+    "version": "25.0.5+9",
+    "url": "https://www.oracle.com/java/technologies/javase/25-0-5-relnotes.html",
+    "capture_date": "2026-11-25",
+    "file": "baseline/release-note-evidence/25-0-5-relnotes.html.txt",
+    "sha256": "61e25041c28219087971e4adf4e1af4bf2c2e5de2b5c687aec0eb6ab7849df34",
+    "checked_terms": [
+      "Post-Quantum Hybrid Key Exchange for TLS 1.3",
+      "PBMAC1"
+    ]
+  }
+]

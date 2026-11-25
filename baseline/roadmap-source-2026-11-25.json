@@ -1,0 +1,1405 @@
+{
+  "source_page": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+  "data_script": "https://www.java.com/jcom/assets/cryptrmap.js",
+  "source_sha256": "b52812a6a83b446297ee98600edb16d8b2cde82777036d2ab46c4f2a0c11b590",
+  "roadmap": {
+    "lastUpdate": "2026-11-05",
+    "releaseNotes": {
+      "25.0.5+9": "https://www.oracle.com/java/technologies/javase/25-0-5-relnotes.html#R25_0_5",
+      "21.0.13+10": "https://www.oracle.com/java/technologies/javase/21-0-13-relnotes.html#R21_0_13",
+      "17.0.21+9": "https://www.oracle.com/java/technologies/javase/17-0-21-relnotes.html#R17_0_21",
+      "21.0.10+8": "https://www.oracle.com/java/technologies/javase/21-0-10-relnotes.html#R21_0_10",
+      "17.0.18+8": "https://www.oracle.com/java/technologies/javase/17-0-18-relnotes.html#R17_0_18",
+      "11.0.30+7": "https://www.oracle.com/java/technologies/javase/11-0-30-relnotes.html#R11_0_30",
+      "8u481 b10": "https://www.oracle.com/java/technologies/javase/8u481-relnotes.html#R180_481",
+      "24.0.1+9": "https://www.oracle.com/java/technologies/javase/24-0-1-relnotes.html#R24_0_1",
+      "21.0.7+8": "https://www.oracle.com/java/technologies/javase/21-0-7-relnotes.html#R21_0_7",
+      "17.0.15+9": "https://www.oracle.com/java/technologies/javase/17-0-15-relnotes.html#R17_0_15",
+      "11.0.27+8": "https://www.oracle.com/java/technologies/javase/11-0-27-relnotes.html#R11_0_27",
+      "8u451 b10": "https://www.oracle.com/java/technologies/javase/8u451-relnotes.html#R180_451",
+      "23.0.1+11": "https://www.oracle.com/java/technologies/javase/23-0-1-relnotes.html#R23_0_1",
+      "21.0.5+9": "https://www.oracle.com/java/technologies/javase/21-0-5-relnotes.html#R21_0_5",
+      "17.0.13+10": "https://www.oracle.com/java/technologies/javase/17-0-13-relnotes.html#R17_0_13",
+      "11.0.25+9": "https://www.oracle.com/java/technologies/javase/11-0-25-relnotes.html#R11_0_25",
+      "8u431 b10": "https://www.oracle.com/java/technologies/javase/8u431-relnotes.html#R180_431",
+      "17.0.12+8": "https://www.oracle.com/java/technologies/javase/17-0-12-relnotes.html#R17_0_12",
+      "11.0.24+7": "https://www.oracle.com/java/technologies/javase/11-0-24-relnotes.html#R11_0_24",
+      "8u411 b09": "https://www.oracle.com/java/technologies/javase/8u411-relnotes.html#R180_411",
+      "11.0.23+7": "https://www.oracle.com/java/technologies/javase/11-0-23-relnotes.html#R11_0_23",
+      "8u391 b13": "https://www.oracle.com/java/technologies/javase/8u391-relnotes.html#R180_391",
+      "11.0.21+9": "https://www.oracle.com/java/technologies/javase/11-0-21-relnotes.html#R11_0_21",
+      "17.0.9+11": "https://www.oracle.com/java/technologies/javase/17-0-9-relnotes.html#R17_0_11",
+      "11.0.19+9": "https://www.oracle.com/java/technologies/javase/11-0-19-relnotes.html#R11_0_19",
+      "8u371 b11": "https://www.oracle.com/java/technologies/javase/8u371-relnotes.html#R180_371",
+      "17.0.5+9": "https://www.oracle.com/java/technologies/javase/17-0-5-relnotes.html#R17_0_5",
+      "11.0.17+10": "https://www.oracle.com/java/technologies/javase/11-0-17-relnotes.html#R11_0_17",
+      "8u351 b10": "https://www.oracle.com/java/technologies/javase/8u351-relnotes.html",
+      "7u361 b08": "https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_361",
+      "8u341 b10": "https://www.oracle.com/java/technologies/javase/8u341-relnotes.html",
+      "11.0.15+8": "https://www.oracle.com/java/technologies/javase/11-0-15-relnotes.html",
+      "11.0.11+9": "https://www.oracle.com/java/technologies/javase/11-0-11-relnotes.html",
+      "11.0.12+8": "https://www.oracle.com/java/technologies/javase/11-0-12-relnotes.html",
+      "11.0.13+10": "https://www.oracle.com/java/technologies/javase/11-0-13-relnotes.html",
+      "8u291 b10": "https://www.oracle.com/java/technologies/javase/8u291-relnotes.html",
+      "8u301 b09": "https://www.oracle.com/java/technologies/javase/8u301-relnotes.html",
+      "8u311 b11": "https://www.oracle.com/java/technologies/javase/8u311-relnotes.html",
+      "7u301 b09": "https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#R170_301",
+      "7u311 b07": "https://www.oracle.com/java/technologies/javase/7u311-relnotes.html",
+      "7u321 b08": "https://www.oracle.com/java/technologies/javase/7u321-relnotes.html",
+      "11.0.10+8": "https://www.oracle.com/java/technologies/javase/11-0-10-relnotes.html",
+      "11.0.9+7": "https://www.oracle.com/java/technologies/javase/11-0-9-relnotes.html",
+      "8u271 b09": "https://www.oracle.com/java/technologies/javase/8u271-relnotes.html",
+      "7u281 b06": "https://www.oracle.com/java/technologies/javase/7-support-relnotes.html#7u281-BPR",
+      "8u261 b12": "https://www.oracle.com/java/technologies/javase/8u261-relnotes.html",
+      "13.0.1+9": "https://www.oracle.com/technetwork/java/javase/13-0-1-relnotes-5592797.html",
+      "11.0.5+10": "https://www.oracle.com/technetwork/java/javase/11-0-5-oracle-relnotes-5592801.html",
+      "8u231 b11": "https://www.oracle.com/technetwork/java/javase/8u231-relnotes-5592812.html",
+      "7u241 b08": "https://www.oracle.com/technetwork/java/javase/documentation/javase7supportreleasenotes-1601161.html#R170_241",
+      "7u231 b08": "https://www.oracle.com/technetwork/java/javase/documentation/javase7supportreleasenotes-1601161.html#R170_231",
+      "11.0.3+12": "https://www.oracle.com/technetwork/java/javase/11-0-3-oracle-relnotes-5290048.html",
+      "8u211 b12": "https://www.oracle.com/technetwork/java/javase/8u211-relnotes-5290139.html",
+      "7u221 b08": "https://www.oracle.com/technetwork/java/javase/documentation/javase7supportreleasenotes-1601161.html#R170_221",
+      "11.0.2+7": "https://www.oracle.com/technetwork/java/javase/11-0-2-relnotes-5188746.html",
+      "8u201 b09": "https://www.oracle.com/technetwork/java/javase/8u201-relnotes-5209271.html",
+      "7u211 b07": "https://www.oracle.com/technetwork/java/javase/documentation/javase7supportreleasenotes-1601161.html#R170_211",
+      "11.0.1+13": "https://www.oracle.com/technetwork/java/javase/11-0-1-relnotes-5032023.html",
+      "8u191 b12": "https://www.oracle.com/technetwork/java/javase/8u191-relnotes-5032181.html",
+      "7u201 b11": "https://www.oracle.com/technetwork/java/javaseproducts/documentation/javase7supportreleasenotes-1601161.html#R170_201",
+      "6u211 b11": "https://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#R160_211",
+      "R28.3.20": "https://docs.oracle.com/cd/E15289_01/JRRLN/newchanged.htm#GUID-9EA1AF7B-5641-4AD1-969C-CE5E1EBC9DD9",
+      "7u191 b08": "http://www.oracle.com/technetwork/java/javase/documentation/javase7supportreleasenotes-1601161.html#R170_191",
+      "10.0.1+10": "http://www.oracle.com/technetwork/java/javase/10-0-1-relnotes-4308875.html",
+      "8u171 b11": "http://www.oracle.com/technetwork/java/javase/8u171-relnotes-4308888.html",
+      "7u181 b09": "http://www.oracle.com/technetwork/java/javase/7u181-relnotes-4308900.html",
+      "6u191 b09": "http://www.oracle.com/technetwork/java/javase/6u191-relnotes-4308914.html",
+      "9.0.4+11": "http://www.oracle.com/technetwork/java/javase/9-0-4-relnotes-4021191.html",
+      "8u161 b12": "http://www.oracle.com/technetwork/java/javase/8u161-relnotes-4021379.html",
+      "R28.3.18": "https://docs.oracle.com/cd/E15289_01/JRRLN/newchanged.htm#GUID-BA317813-7A4C-4A02-AD95-2411168D42F1",
+      "7u171 b11": "http://www.oracle.com/technetwork/java/javase/documentation/javase7supportreleasenotes-1601161.html#R170_171",
+      "6u181 b10": "http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#R160_181",
+      "R28.3.17": "https://docs.oracle.com/cd/E15289_01/JRRLN/newchanged.htm#GUID-8C5C797E-A068-44ED-812D-79F4B188C8A7",
+      "8u151 b12": "http://www.oracle.com/technetwork/java/javase/8u151-relnotes-3850493.html",
+      "7u161 b13": "http://www.oracle.com/technetwork/java/javase/documentation/javase7supportreleasenotes-1601161.html#R170_161",
+      "6u171 b13": "http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#R160_171",
+      "R28.3.16": "https://docs.oracle.com/cd/E15289_01/JRRLN/newchanged.htm#GUID-CB0B83DE-FA2D-480E-A6C7-4873779F8662",
+      "8u141 b15": "http://www.oracle.com/technetwork/java/javase/8u141-relnotes-3720385.html",
+      "7u151 b15": "http://www.oracle.com/technetwork/java/javaseproducts/documentation/javase7supportreleasenotes-1601161.html#R170_151",
+      "6u161 b12": "http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#R160_161",
+      "R28.3.15": "https://docs.oracle.com/cd/E15289_01/JRRLN/newchanged.htm#GUID-1CE868AD-B211-4BFD-BFBD-2312E7D6EAB5",
+      "8u131 b11": "http://www.oracle.com/technetwork/java/javase/8u131-relnotes-3565278.html",
+      "7u141 b11": "http://www.oracle.com/technetwork/java/javaseproducts/documentation/javase7supportreleasenotes-1601161.html#R170_141",
+      "6u151 b10": "http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#R160_151",
+      "R28.3.14": "https://docs.oracle.com/cd/E15289_01/JRRLN/newchanged.htm#GUID-64B46D62-4B59-42F8-831D-8D9A422F10E6",
+      "8u121 b13": "http://www.oracle.com/technetwork/java/javase/8u121-relnotes-3315208.html",
+      "7u131 b12": "http://www.oracle.com/technetwork/java/javaseproducts/documentation/javase7supportreleasenotes-1601161.html#R170_131",
+      "6u141 b12": "http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#R160_141",
+      "R28.3.13": "https://docs.oracle.com/cd/E15289_01/JRRLN/newchanged.htm#GUID-B1E5418C-CFB4-4EDF-A5BA-25925A7CE7C4",
+      "8u111 b14": "http://www.oracle.com/technetwork/java/javase/8u111-relnotes-3124969.html",
+      "7u121 b15": "http://www.oracle.com/technetwork/java/javaseproducts/documentation/javase7supportreleasenotes-1601161.html#R170_121",
+      "6u131 b14": "http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#R160_131",
+      "R28.3.12": "https://docs.oracle.com/cd/E15289_01/JRRLN/newchanged.htm#GUID-387EAD0A-6CD2-4FA8-83DA-291BBFA548B1",
+      "8u101 b13": "http://www.oracle.com/technetwork/java/javase/8u101-relnotes-3021761.html",
+      "7u111 b13": "http://www.oracle.com/technetwork/java/javaseproducts/documentation/javase7supportreleasenotes-1601161.html#R170_111",
+      "8u71 b15": "http://www.oracle.com/technetwork/java/javase/8u71-relnotes-2773756.html",
+      "7u95 b14": "http://www.oracle.com/technetwork/java/javaseproducts/documentation/javase7supportreleasenotes-1601161.html#R170_95",
+      "6u115 b32": "http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#6u115-b32",
+      "6u111 b12": "http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#R160_111",
+      "R28.3.9": "https://docs.oracle.com/cd/E15289_01/JRRLN/newchanged.htm#GUID-2BF767A0-35BE-4CF8-9465-5E54E04F1E13"
+    },
+    "roadmap": [
+      {
+        "date": "2027-01-19",
+        "affects": "25, 21, 17",
+        "protocol": "ML-DSA",
+        "action": "Add Support for JARs Signed with ML-DSA",
+        "howToTest": "Adding Support for JARs Signed with ML-DSA",
+        "testLink": "configure_crypto.html#ML-DSA-JARs",
+        "changeLog": [
+          {
+            "change": "2026-11-05 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-19",
+        "affects": "21, 17",
+        "protocol": "Post-Quantum Hybrid Key Exchange",
+        "action": "Add Post-Quantum Hybrid Key Exchange for TLS 1.3",
+        "howToTest": "Adding Post-Quantum Hybrid Key Exchange for TLS 1.3",
+        "testLink": "configure_crypto.html#PQ_TLS1.3",
+        "changeLog": [
+          {
+            "change": "2026-11-05 Target date narrowed from 2027-H1 to 2027-01-19."
+          },
+          {
+            "change": "2026-07-03 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2027-01-19",
+        "affects": "21, 17",
+        "protocol": "PBMAC1",
+        "action": "Add PKCS12 KeyStore Support for PBMAC1",
+        "howToTest": "Adding PKCS12 KeyStore Support for PBMAC1",
+        "testLink": "configure_crypto.html#PKCS12_PBMAC1",
+        "changeLog": [
+          {
+            "change": "2026-11-05 Target date narrowed from 2027-H1 to 2027-01-19."
+          },
+          {
+            "change": "2026-07-03 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2027-04-20",
+        "affects": "25, 21, 17, 11, 8",
+        "protocol": "Diffie-Hellman",
+        "action": "Remove ffdhe6144 and ffdhe8192 from Default List of TLS Named Groups",
+        "howToTest": "Removing ffdhe6144 and ffdhe8192 from Default List of TLS Named Groups",
+        "testLink": "configure_crypto.html#remove-ffdhe",
+        "changeLog": [
+          {
+            "change": "2026-11-05 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2027-H2",
+        "affects": "11, 8",
+        "protocol": "ML-KEM",
+        "action": "Add support for ML-KEM Key Encapsulation Mechanism",
+        "howToTest": "Adding support for ML-KEM Key Encapsulation Mechanism",
+        "testLink": "configure_crypto.html#Add_ML-KEM",
+        "changeLog": [
+          {
+            "change": "2026-07-03 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2027-H2",
+        "affects": "11, 8",
+        "protocol": "ML-DSA",
+        "action": "Add Support for ML-DSA Digital Signature Algorithm",
+        "howToTest": "Adding Support for ML-DSA Digital Signature Algorithm",
+        "testLink": "configure_crypto.html#Add_ML-DSA",
+        "changeLog": [
+          {
+            "change": "2026-07-03 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2027-H2",
+        "affects": "8",
+        "protocol": "X25519, X448",
+        "action": "Add support for Key Agreement with Curve25519 and Curve448",
+        "howToTest": "Adding support for Key Agreement with Curve25519 and Curve448",
+        "testLink": "configure_crypto.html#Curve25519",
+        "changeLog": [
+          {
+            "change": "2026-07-03 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2027-H2",
+        "affects": "11, 8",
+        "protocol": "Post-Quantum Hybrid Key Exchange",
+        "action": "Add Post-Quantum Hybrid Key Exchange for TLS 1.3",
+        "howToTest": "Adding Post-Quantum Hybrid Key Exchange for TLS 1.3",
+        "testLink": "configure_crypto.html#PQ_TLS1.3",
+        "changeLog": [
+          {
+            "change": "2026-07-03 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2027-H2",
+        "affects": "11, 8",
+        "protocol": "PBMAC1",
+        "action": "Add PKCS12 KeyStore Support for PBMAC1",
+        "howToTest": "Adding PKCS12 KeyStore Support for PBMAC1",
+        "testLink": "configure_crypto.html#PKCS12_PBMAC1",
+        "changeLog": [
+          {
+            "change": "2026-07-03 Announced."
+          }
+        ]
+      }
+    ],
+    "completed": [
+      {
+        "date": "2026-10-20",
+        "affects": "25.0.5+9",
+        "protocol": "Post-Quantum Hybrid Key Exchange",
+        "action": "Added Post-Quantum Hybrid Key Exchange for TLS 1.3",
+        "howToTest": "Adding Post-Quantum Hybrid Key Exchange for TLS 1.3",
+        "testLink": "configure_crypto.html#PQ_TLS1.3",
+        "changeLog": [
+          {
+            "change": "2026-10-20 Released."
+          },
+          {
+            "change": "2026-07-03 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-20",
+        "affects": "25.0.5+9",
+        "protocol": "PBMAC1",
+        "action": "Added PKCS12 KeyStore Support for PBMAC1",
+        "howToTest": "Adding PKCS12 KeyStore Support for PBMAC1",
+        "testLink": "configure_crypto.html#PKCS12_PBMAC1",
+        "changeLog": [
+          {
+            "change": "2026-10-20 Released."
+          },
+          {
+            "change": "2026-07-03 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-20",
+        "affects": "21.0.13+10, 17.0.21+9",
+        "protocol": "ML-KEM",
+        "action": "Added Support for ML-KEM Key Encapsulation Mechanism",
+        "howToTest": "Adding Support for ML-KEM Key Encapsulation Mechanism",
+        "testLink": "configure_crypto.html#Add_ML-KEM",
+        "changeLog": [
+          {
+            "change": "2026-10-20 Released."
+          },
+          {
+            "change": "2026-07-03 Target date narrowed from 2026-H2 to 2026-10-20."
+          },
+          {
+            "change": "2025-10-08 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2026-10-20",
+        "affects": "21.0.13+10, 17.0.21+9",
+        "protocol": "ML-DSA",
+        "action": "Added support for ML-DSA Digital Signature Algorithm",
+        "howToTest": "Adding support for ML-DSA Digital Signature Algorithm",
+        "testLink": "configure_crypto.html#Add_ML-DSA",
+        "changeLog": [
+          {
+            "change": "2026-10-20 Released."
+          },
+          {
+            "change": "2026-07-03 Target date narrowed from 2026-H2 to 2026-10-20."
+          },
+          {
+            "change": "2025-10-08 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2026-01-20",
+        "affects": "21.0.10+8, 17.0.18+8, 11.0.30+7, 8u481 b10",
+        "protocol": "TLSv1.2, DTLSv1.2",
+        "action": "Disabled SHA-1 in TLS/DTLS 1.2 handshake signatures",
+        "howToTest": "Disabling SHA-1 in TLS/DTLS 1.2 handshake signatures",
+        "testLink": "configure_crypto.html#DisableSHA1_TLS_DTLS",
+        "changeLog": [
+          {
+            "change": "2026-01-20 Released."
+          },
+          {
+            "change": "2025-10-08 Target date narrowed from 2026 to 2026-01-20."
+          },
+          {
+            "change": "2025-04-15 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2026-01-20",
+        "affects": "21.0.10+8, 17.0.18+8, 11.0.30+7, 8u481 b10",
+        "protocol": "TLS",
+        "action": "Disabled TLS_RSA Cipher Suites",
+        "howToTest": "Disabling TLS_RSA Cipher Suites",
+        "testLink": "configure_crypto.html#DisableTLS_RSA",
+        "changeLog": [
+          {
+            "change": "2026-01-20 Released."
+          },
+          {
+            "change": "2025-10-08 Target date narrowed from 2026 to 2026-01-20."
+          },
+          {
+            "change": "2024-11-13 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2025-04-15",
+        "affects": "24.0.1+9, 21.0.7+8, 17.0.15+9, 11.0.27+8, 8u451 b10",
+        "protocol": "TLS",
+        "action": "Distrusted TLS server certificates anchored by Camerfirma root certificates and issued after April 15, 2025",
+        "howToTest": "Distrusting TLS server certificates anchored by Camerfirma root certificates and issued after April 15, 2025",
+        "testLink": "configure_crypto.html#Distrust_CamerfirmaRoots",
+        "changeLog": [
+          {
+            "change": "2025-04-15 Released."
+          },
+          {
+            "change": "2025-01-30 Announced."
+          }
+        ]
+      },
+      {
+        "date": " 2024-10-15",
+        "affects": "17.0.13+10, 11.0.25+9, 8u431 b10",
+        "protocol": "TLS",
+        "action": "Disabled TLS_ECDH Cipher Suites",
+        "howToTest": "Disabling TLS_ECDH Cipher Suites",
+        "testLink": "configure_crypto.html#DisableTLS_ECDH",
+        "changeLog": [
+          {
+            "change": "2024-10-15 Released."
+          },
+          {
+            "change": "2024-04-30 Announced."
+          }
+        ]
+      },
+      {
+        "date": " 2024-10-15",
+        "affects": "23.0.1+11, 21.0.5+9, 17.0.13+10, 11.0.25+9, 8u431 b10",
+        "protocol": "TLS",
+        "action": "Distrusted TLS server certificates anchored by Entrust root certificates and issued after Nov 11, 2024",
+        "howToTest": "Distrusting TLS server certificates anchored by Entrust root certificates and issued after Nov 11, 2024",
+        "testLink": "configure_crypto.html#Distrust_Entrust",
+        "changeLog": [
+          {
+            "change": "2024-10-15 Released."
+          },
+          {
+            "change": "2024-09-30 Changed distrust date from after Oct to after Nov 11."
+          },
+          {
+            "change": "2024-09-04 Announced."
+          }
+        ]
+      },
+      {
+        "date": " 2024-07-16",
+        "affects": "17.0.12+8, 11.0.24+7",
+        "protocol": "DTLS 1.0",
+        "action": "Disabled DTLS 1.0",
+        "howToTest": "Disabling DTLS 1.0",
+        "testLink": "configure_crypto.html#DisableDTLS",
+        "changeLog": [
+          {
+            "change": "2024-07-16 Released."
+          },
+          {
+            "change": "2024-01-22 Announced."
+          }
+        ]
+      },
+      {
+        "date": " 2024-04-16",
+        "affects": "11.0.23+7, 8u411 b09",
+        "protocol": "XML Signature",
+        "action": "Enabled XML Signature secure validation mode by default",
+        "howToTest": "Enabling XML Signature secure validation mode by default ",
+        "testLink": "configure_crypto.html#EnableXMLSignature",
+        "changeLog": [
+          {
+            "change": "2024-04-16 Released."
+          },
+          {
+            "change": "2024-01-22 Target date changed from 2024-07-16 to 2024-04-16. Updated testing instructions to show how to test changes with system property."
+          },
+          {
+            "change": "2023-10-17 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2023-10-17",
+        "affects": "11.0.21+9, 8u391 b13",
+        "protocol": "TLS",
+        "action": "Uses the server's cipher suite preference order instead of the client's when establishing a TLS connection",
+        "howToTest": "Setting the TLS server's cipher suite order by default ",
+        "testLink": "configure_crypto.html#SettingTLSOrder",
+        "changeLog": [
+          {
+            "change": "2023-10-17 Released."
+          },
+          {
+            "change": "2023-05-30 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2023-10-17",
+        "affects": "17.0.9+11, 11.0.21+9, 8u391 b13",
+        "protocol": "TLSv1.2",
+        "action": "Increased the default TLS Diffie-Hellman group size from 1024-bit to 2048-bit<sup>(4)</sup>",
+        "howToTest": "Increasing the default TLS Diffie-Hellman group size from 1024-bit to 2048-bit",
+        "testLink": "configure_crypto.html#IncreaseTLSDiffie",
+        "changeLog": [
+          {
+            "change": "2023-10-17 Released."
+          },
+          {
+            "change": "2023-03-09 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2023-04-18",
+        "affects": "11.0.19+9, 8u371 b11",
+        "protocol": "SSLv2Hello, SSLv3",
+        "action": "Made it harder to re-enable SSLv3 (previously disabled) and SSLv2Hello",
+        "howToTest": "Making it harder to re-enable SSLv3 (previously disabled) and SSLv2Hello",
+        "testLink": "configure_crypto.html#RemoveSSLv2HelloAndSSLv3",
+        "changeLog": [
+          {
+            "change": "2023-04-18 Released."
+          },
+          {
+            "change": "2022-10-18 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2022-10-18",
+        "affects": "17.0.5+9, 11.0.17+10, 8u351 b10",
+        "protocol": "SHA-1",
+        "action": "Disabled SHA-1 JARs signed after 2019-01-01",
+        "howToTest": "Disabling SHA-1 signed jars (updated)",
+        "testLink": "configure_crypto.html#DisableSHA1SignedJars",
+        "changeLog": [
+          {
+            "change": "2022-10-18 Released."
+          },
+          {
+            "change": "2022-04-19 Target date narrowed from 2022 to 2022-10-18."
+          },
+          {
+            "change": "2021-10-19 Updated Additional Information."
+          },
+          {
+            "change": "2021-06-11 Target date changed from 2021-07-20 to 2022."
+          },
+          {
+            "change": "2020-12-18 Target date changed from 2021-04-20 to 2021-07-20."
+          },
+          {
+            "change": "2020-08-24 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2022-10-18",
+        "affects": "11.0.17+10, 8u351 b10",
+        "protocol": "SHA-2",
+        "action": "Upgraded the default PKCS12 MAC algorithm",
+        "howToTest": "Upgrading the default PKCS12 MAC algorithm",
+        "testLink": "configure_crypto.html#UpgradingPKCS12Mac",
+        "changeLog": [
+          {
+            "change": "2022-10-18 Released."
+          },
+          {
+            "change": "2022-04-19 Target date narrowed from 2022 H2 to 2022-10-18."
+          },
+          {
+            "change": "2021-06-11 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2022-10-18",
+        "affects": "11.0.17+10, 8u351 b10",
+        "protocol": "3DES, RC4",
+        "action": "Disabled 3DES and RC4 in Kerberos",
+        "howToTest": "Disabling 3DES and RC4 in Kerberos",
+        "testLink": "configure_crypto.html#Disable3DESandRC4",
+        "changeLog": [
+          {
+            "change": "2022-10-18 Released."
+          },
+          {
+            "change": "2022-04-19 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2022-07-19",
+        "affects": "8u341 b10",
+        "protocol": "TLSv1.3",
+        "action": "Enabled TLSv1.3 by default on the client",
+        "howToTest": "Enabling TLSv1.3 by default on the client",
+        "testLink": "configure_crypto.html#EnableTLSv13",
+        "changeLog": [
+          {
+            "change": "2022-07-19 Released."
+          },
+          {
+            "change": "2021-10-19 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2022-04-19",
+        "affects": "11.0.15+8",
+        "protocol": "TLSv1.2, TLSv1.3",
+        "action": "Added support for ChaCha20 and Poly1305 TLS Cipher Suites",
+        "howToTest": "Adding support for ChaCha20 and Poly1305 TLS Cipher Suites",
+        "testLink": "configure_crypto.html#AddSupportTLSCipherSuites",
+        "changeLog": [
+          {
+            "change": "2022-04-19 Released."
+          },
+          {
+            "change": "2021-10-19 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2021-10-19",
+        "affects": "11.0.13+10, 8u311 b11, 7u321 b08",
+        "protocol": "TLS 1.0 to TLS 1.3",
+        "action": "Improve the TLS cipher suite order",
+        "howToTest": "Improving the TLS cipher suite order ",
+        "testLink": "configure_crypto.html#TLSCipherSuiteOrder",
+        "changeLog": [
+          {
+            "change": "2021-10-19 Released."
+          },
+          {
+            "change": "2021-10-11 Target date corrected from 2021-10-21 to 2021-10-19."
+          },
+          {
+            "change": "2021-06-11 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2021-07-20",
+        "affects": "11.0.12+8, 8u301 b09, 7u311 b07",
+        "protocol": "PKCS12, SHA-1, 3DES, RC2",
+        "action": "Upgraded the default PKCS12 encryption algorithms",
+        "howToTest": "Upgrading the default PKCS12 encryption algorithms ",
+        "testLink": "configure_crypto.html#UpgradePKCS12",
+        "changeLog": [
+          {
+            "change": "2021-07-20 Released."
+          },
+          {
+            "change": "2021-06-11 Removed MAC algorithms and re-targeted it as a separate action (see 'Upgrade the default PKCS12 MAC algorithm')."
+          },
+          {
+            "change": "2020-11-16 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2021-07-20",
+        "affects": "11.0.12+8, 8u301 b09, 7u311 b07",
+        "protocol": "RSA",
+        "action": "Removed root certificates with 1024-bit keys",
+        "howToTest": "Removing or restoring root certificates with 1024-bit keys",
+        "testLink": "configure_crypto.html#RemoveRootCerts",
+        "changeLog": [
+          {
+            "change": "2021-07-20 Released."
+          },
+          {
+            "change": "2020-12-18 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2021-07-20",
+        "affects": "11.0.12+8, 8u301 b09, 7u311 b07",
+        "protocol": "SHA-2",
+        "action": "Added support for SHA-2 HmacPBE algorithms",
+        "howToTest": "Adding support for SHA-2 HmacPBE algorithms",
+        "testLink": "configure_crypto.html#SupportHmacPBEAlgorithms",
+        "changeLog": [
+          {
+            "change": "2021-07-20 Released."
+          },
+          {
+            "change": "2021-06-11 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2021-04-20",
+        "affects": "11.0.11+9, 8u291 b10, 7u301 b09",
+        "protocol": "TLS 1.0, TLS 1.1",
+        "action": "Disabled TLS 1.0 and TLS 1.1",
+        "howToTest": "Disabling TLS 1.0 and TLS 1.1",
+        "testLink": "configure_crypto.html#DisableTLS",
+        "changeLog": [
+          {
+            "change": "2021-04-20 Released."
+          },
+          {
+            "change": "2020-11-16 Target date narrowed from 2021 to 2021-04-20."
+          },
+          {
+            "change": "2020-05-14 Target date changed from 2020 H2 to 2021."
+          },
+          {
+            "change": "2019-10-15 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2021-01-19",
+        "affects": "11.0.10+8",
+        "protocol": "TLS 1.0 to TLS 1.3",
+        "action": "Added support for the x25519 and x448 named elliptic curve groups to TLS",
+        "howToTest": "Adding support for the x25519 and x448 named elliptic curve groups to TLS",
+        "testLink": "configure_crypto.html#TLSsupportforx25519andx448",
+        "changeLog": [
+          {
+            "change": "2021-01-19 Released."
+          },
+          {
+            "change": "2020-10-09 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2020-10-20",
+        "affects": "11.0.9+7, 8u271 b09, 7u281 b06",
+        "protocol": "ECC",
+        "action": "Disabled weak named curves by default in TLS, CertPath, and Signed JARs",
+        "howToTest": "Disabling weak named curves by default in TLS, CertPath, and Signed JARs",
+        "testLink": "configure_crypto.html#DisableWeakNamedCurves",
+        "changeLog": [
+          {
+            "change": "2020-10-20 Released."
+          },
+          {
+            "change": "2020-05-14 Target date changed from 2020-07-14 to 2020-10-20."
+          },
+          {
+            "change": "2020-03-06 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2020-10-20",
+        "affects": "11.0.9+7, 8u271 b09, 7u281 b06",
+        "protocol": "SHA-1, RSA/DSA keys less than 2048-bits",
+        "action": "Tools warn about weak algorithms before they are disabled",
+        "howToTest": "Tools warn about weak algorithms if used before restricting them.",
+        "testLink": "configure_crypto.html#WarnWeakAlgorithms",
+        "changeLog": [
+          {
+            "change": "2020-10-20 Released."
+          },
+          {
+            "change": "2020-10-09 Released in JDK 15 on 2020-09-15."
+          },
+          {
+            "change": "2020-05-14 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2020-07-14",
+        "affects": "8u261 b12",
+        "protocol": "TLS 1.3",
+        "action": "Added support for TLS 1.3",
+        "howToTest": "N/A",
+        "changeLog": [
+          {
+            "change": "2020-07-14 Released."
+          },
+          {
+            "change": "2020-05-14 Target date narrowed from 2020 to \n 2020-07-14"
+          },
+          {
+            "change": "2019-07-16 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2020-07-14",
+        "affects": "8u261 b12",
+        "protocol": "TLS 1.2",
+        "action": "Increased the priority of the GCM cipher suites",
+        "howToTest": "TLS 1.2 Cipher Suite Priorities in JDK 8",
+        "testLink": "configure_crypto.html#GCMCipher",
+        "changeLog": [
+          {
+            "change": "2020-07-14 Released."
+          },
+          {
+            "change": "2020-05-14 Target date narrowed from 2020 to 2020-07-14"
+          },
+          {
+            "change": "2019-12-20 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2019-10-15",
+        "affects": "13.0.1+9, 11.0.5+10, 8u231 b11, 7u241 b08",
+        "protocol": "ECC on TLS",
+        "action": "Disabled non-NIST Suite B EC curves (sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1, secp256k1) when negotiating TLS sessions",
+        "howToTest": "Disabling non-NIST Suite B EC curves when negotiating TLS sessions",
+        "testLink": "configure_crypto.html#DisablenonNIST",
+        "changeLog": [
+          {
+            "change": "2019-10-15 Released."
+          },
+          {
+            "change": "2019-10-08 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2019-07-16",
+        "affects": "7u231 b08",
+        "protocol": "DES",
+        "action": "Disabled Kerberos DES encryption",
+        "howToTest": "Disabling Kerberos DES encryption",
+        "testLink": "configure_crypto.html#kerberosDES",
+        "changeLog": [
+          {
+            "change": "2019-07-16 Released."
+          },
+          {
+            "change": "2019-03-13 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2019-04-16",
+        "affects": "11.0.3+12, 8u211 b12, 7u221 b08",
+        "protocol": "TLS",
+        "action": "Distrusted TLS server certificates anchored by Symantec Root CAs. See <a href=\"https://blogs.oracle.com/java/oracles-plan-for-distrusting-symantec-tls-certificates-in-the-jdk\" font-style:italics><i>Oracle's Plan for Distrusting Symantec TLS Certificates in the JDK</i></a> for more information.",
+        "howToTest": "N/A",
+        "changeLog": [
+          {
+            "change": "2019-04-16 Released. Removed JDK 12 from the list of affected releases. These algorithms were disabled on JDK 12 at GA (2019-03-19), not with the April update."
+          },
+          {
+            "change": "2018-12-06 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2019-01-15",
+        "affects": "11.0.2+7, 8u201 b09, 7u211 b07",
+        "protocol": "anon, NULL",
+        "action": "Disabled the TLS anon and NULL cipher suites",
+        "howToTest": "Disabling anon and NULL cipher suites for TLS",
+        "testLink": "configure_crypto.html#anonTLS",
+        "changeLog": [
+          {
+            "change": "2019-01-15 Released."
+          },
+          {
+            "change": "2018-11-08 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2019-01-15",
+        "affects": "7u211 b07",
+        "protocol": "RC4",
+        "action": "Disabled the TLS RC4 cipher suites",
+        "howToTest": "Disabling RC4 cipher suites for TLS",
+        "testLink": "configure_crypto.html#RC4TLS",
+        "changeLog": [
+          {
+            "change": "2019-01-15 Released."
+          },
+          {
+            "change": "2018-11-08 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2019-01-15",
+        "affects": "7u211 b07",
+        "protocol": "PBKDF2, PBES2",
+        "action": "Added support for PBKDF2 SecretKeyFactory and PBES2 Cipher algorithms.",
+        "howToTest": "N/A",
+        "changeLog": [
+          {
+            "change": "2019-01-15 Released."
+          },
+          {
+            "change": "2018-11-08 Target date narrowed from 2019 to 2019-01-15"
+          },
+          {
+            "change": "2018-07-17 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2018-10-16",
+        "affects": "11.0.1+13 , 8u191 b12, 7u201 b11, 6u211 b11, R28.3.20",
+        "protocol": "DES",
+        "action": "Disabled the TLS DES Cipher Suites",
+        "howToTest": "Disabling DES cipher suites for TLS",
+        "testLink": "configure_crypto.html#DESONTLS",
+        "changeLog": [
+          {
+            "change": "2018-10-16 Released."
+          },
+          {
+            "change": "2018-08-27 Announced."
+          }
+        ]
+      },
+      {
+        "date": "2018-07-17",
+        "affects": "7u191 b08",
+        "protocol": "AES/GCM",
+        "action": "Added support for AEAD TLS Cipher Suites.",
+        "howToTest": "N/A",
+        "changeLog": [
+          {
+            "change": "2018-10-08 Corrected change log."
+          },
+          {
+            "change": "2018-07-17 Change log incorrectly updated with \"announced 2018-04-17\", earlier entries truncated."
+          },
+          {
+            "change": "2018-07-17 Released"
+          },
+          {
+            "change": "2018-02-23 Target date changed from 2018-04-17 to 2018-07-17"
+          },
+          {
+            "change": "2018-01-16 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2018-04-17",
+        "affects": "10.0.1+10, 8u171 b11, 7u181 b09, 6u191 b09, R28.3.18",
+        "protocol": "3DES",
+        "action": "Disabled the TLS 3DES cipher suites.",
+        "howToTest": "Disabling 3DES cipher suites for TLS.",
+        "testLink": "configure_crypto.html#3DESONTLS",
+        "changeLog": [
+          {
+            "change": "2018-04-17 Released"
+          },
+          {
+            "change": "2018-01-16 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2018-04-17",
+        "affects": "10.0.1+10, 8u171 b11",
+        "protocol": "EC",
+        "action": "Set minimum EC key length for XML signatures to 224 bits.",
+        "howToTest": "Changing the minimum EC Key Length for XML Signatures.",
+        "testLink": "configure_crypto.html#ECKeyLengthforXML",
+        "changeLog": [
+          {
+            "change": "2018-04-17 Released"
+          },
+          {
+            "change": "2018-01-16 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-16",
+        "affects": "8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+        "protocol": "DSA",
+        "action": "JAR files signed with DSA keys less than 1024 bits are treated as unsigned JARs.",
+        "howToTest": "Set minimum key length requirement for JARs signed with DSA/RSA.",
+        "testLink": "configure_crypto.html#MinRSADSAKeys",
+        "changeLog": [
+          {
+            "change": "2018-01-16 Released"
+          },
+          {
+            "change": "2017-10-17 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-16",
+        "affects": "9.0.4+11, 8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+        "protocol": "DES, RC4",
+        "action": "Disabled the TLS EXPORT cipher suites.",
+        "howToTest": "Disabling the TLS EXPORT cipher suites.",
+        "testLink": "configure_crypto.html#TLSEXPORT",
+        "changeLog": [
+          {
+            "change": "2018-01-16 Released"
+          },
+          {
+            "change": "2017-10-17 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-16",
+        "affects": "9.0.4+11, 8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+        "protocol": "RSA, DSA, Diffie-Hellman",
+        "action": "Increased the default key size of the RSA, DSA, and DiffieHellman AlgorithmParameterGenerator and KeyPairGenerator implementations from 1024 to 2048 bits.",
+        "howToTest": "Increased default key size of the AlgorithmParameterGenerator and KeyPairGenerator implementations from 1024 to 2048 bits.",
+        "testLink": "configure_crypto.html#defKeySize",
+        "changeLog": [
+          {
+            "change": "2018-01-16 Released"
+          },
+          {
+            "change": "2017-10-17 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-16",
+        "affects": "8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+        "protocol": "Diffie-Hellman, DSA",
+        "action": "Added support for DiffieHellman keys up to 8192 bits and DSA keys up to 3072 bits.",
+        "howToTest": "N/A",
+        "changeLog": [
+          {
+            "change": "2018-01-16 Released"
+          },
+          {
+            "change": "2017-10-17 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-16",
+        "affects": "7u171 b11",
+        "protocol": "PKCS12",
+        "action": "Added PKCS12 KeyStore support for secret keys and trusted certificates to allow users to migrate from JKS to PKCS12.",
+        "howToTest": "N/A",
+        "changeLog": [
+          {
+            "change": "2018-01-16 Released"
+          },
+          {
+            "change": "2017-10-17 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-16",
+        "affects": "8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+        "protocol": "Several",
+        "action": "Enabled unlimited cryptographic policy by default.",
+        "howToTest": "Configuring Unlimited Cryptographic Policy.",
+        "testLink": "configure_crypto.html#unlimitedJCE",
+        "changeLog": [
+          {
+            "change": "2018-01-16 Released"
+          },
+          {
+            "change": "2017-07-18 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2018-01-16",
+        "affects": "8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+        "protocol": "Diffie-Hellman",
+        "action": "For TLS, increased the minimum key length to 1024 bits.",
+        "howToTest": "Changing minimum key length for Diffie-Hellman.",
+        "testLink": "configure_crypto.html#DHAKeySize",
+        "changeLog": [
+          {
+            "change": "2018-01-16 Released"
+          },
+          {
+            "change": "2017-04-18 Target date narrowed from 2018 to 2018-01-16, removed JDK 9 from targeted releases.  JDK 9 will release with TLS min key length already set to 1024 bits."
+          },
+          {
+            "change": "2017-03-06 Target date changed from 2017 H2 to 2018, added JDK 9 to targeted releases."
+          },
+          {
+            "change": "2016-08-18 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2017-10-17",
+        "affects": "6u171 b13, R28.3.16",
+        "protocol": "DSA, SHA224withDSA, SHA256withDSA ",
+        "action": "Added support for the SHA224withDSA and SHA256withDSA signature algorithms and DSA keys with sizes up to 2048 bits.",
+        "howToTest": "N/A",
+        "changeLog": [
+          {
+            "change": "2017-10-17 Released"
+          },
+          {
+            "change": "2017-07-18 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2017-10-17",
+        "affects": "8u151 b12, 7u161 b13, 6u171 b13, R28.3.16",
+        "protocol": "DSA",
+        "action": "Upgraded the jarsigner and keytool ‑sigalg default to SHA256withDSA and the ‑keysize default to 2048 for DSA keys.",
+        "howToTest": "To use a different algorithm and/or smaller key size use the ‑sigalg and ‑keysize options of keytool and jarsigner to override the current defaults.  Before this change the default values were SHA1withDSA and 1024 bits.",
+        "changeLog": [
+          {
+            "change": "2017-10-17 Released"
+          },
+          {
+            "change": "2017-07-18 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2017-07-18 ",
+        "affects": "6u161 b12, R28.3.15",
+        "protocol": "SHA-1 to SHA-256 for Timestamping",
+        "action": "Time stamping in jarsigner requests SHA-256, rather than SHA-1 by default.",
+        "howToTest": "Use the ‑tsadigestalg option to specify the desired Timestamping algorithm.",
+        "changeLog": [
+          {
+            "change": "2017-07-18 Released"
+          },
+          {
+            "change": "2017-04-18 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2017-07-18",
+        "affects": "8u141 b15, 7u151 b15, 6u161 b12, R28.3.15",
+        "protocol": "SHA-1",
+        "action": "Disabled SHA-1 in TLS Server certificate chains anchored by roots included by default in Oracle's JDK; local or enterprise CAs are not affected.",
+        "howToTest": "Disable SHA-1 in certificate chains anchored by roots included by default in Oracle's JDK",
+        "testLink": "configure_crypto.html#disableSHA1",
+        "changeLog": [
+          {
+            "change": "2017-07-18 Released"
+          },
+          {
+            "change": "2017-05-02 Target date changed from 2017-10-17 to 2017-07-18."
+          },
+          {
+            "change": "2017-03-06 Target date changed from 2017-04-18 to 2017-10-17.  Narrowed scope from all SHA-1 usage: only TLS will be affected, code signing will not be affected at this time."
+          },
+          {
+            "change": "2016-08-18 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2017-04-18",
+        "affects": "8u131 b11, 7u141 b11, 6u151 b10, R28.3.14",
+        "protocol": "MD5",
+        "action": "JAR files signed with MD5 algorithms are treated as unsigned JARs.",
+        "howToTest": "Disabling MD5 signed jars",
+        "testLink": "configure_crypto.html#disableMD5",
+        "changeLog": [
+          {
+            "change": "2017-04-18 Released"
+          },
+          {
+            "change": "2016-12-08 Target date changed from 2017-01-17 to 2017-04-18"
+          },
+          {
+            "change": "2016-10-24 Testing instructions added"
+          },
+          {
+            "change": "2016-09-30 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-17",
+        "affects": "8u121 b13, 7u131 b12, 6u141 b12, R28.3.13",
+        "protocol": "RSA, DSA",
+        "action": "Increased the minimum key length to 1024 for XML signatures.",
+        "howToTest": "Changing minimum key length for XML signatures.",
+        "testLink": "configure_crypto.html#XMLSignature",
+        "changeLog": [
+          {
+            "change": "2017-01-17 Released"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-17",
+        "affects": "8u121 b13, 7u131 b12, 6u141 b12, R28.3.13",
+        "protocol": "3DES",
+        "action": "For TLS, 3DES has been added to the jdk.tls.legacyAlgorithms security property. 3DES cipher suites will be used only if no stronger candidates can be used.",
+        "howToTest": "Configuring whether 3DES should be treated as a legacy Algorithm.",
+        "testLink": "configure_crypto.html#3DES",
+        "changeLog": [
+          {
+            "change": "2017-01-17 Released"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-17",
+        "affects": "7u131 b12",
+        "protocol": "SHA224withDSA and SHA256withDSA",
+        "action": "Added support for the SHA224withDSA and SHA256withDSA signature algorithms.",
+        "howToTest": "SHA224withDSA and SHA256withDSA signature algorithms in JDK 7.",
+        "testLink": "configure_crypto.html#NSASuiteB",
+        "changeLog": [
+          {
+            "change": "2017-01-17 Released"
+          },
+          {
+            "change": "2016-11-21 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-17",
+        "affects": "7u131 b12",
+        "protocol": "DSA",
+        "action": "Increased the maximum key length for DSA to 2048 bits",
+        "howToTest": "Maximum key length for DSA increased to 2048 bits.",
+        "testLink": "configure_crypto.html#NSASuiteB",
+        "changeLog": [
+          {
+            "change": "2017-01-17 Released"
+          },
+          {
+            "change": "2016-11-21 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-17",
+        "affects": "8u121 b13, 7u131 b12, 6u141 b12, R28.3.13",
+        "protocol": "EC",
+        "action": "For TLS, disabled EC for keys of less than 256 bits. Elsewhere, disabled EC certificates with keys less than 224 bits.",
+        "howToTest": "Changing minimum key length for EC.",
+        "testLink": "configure_crypto.html#ECKeySize",
+        "changeLog": [
+          {
+            "change": "2017-01-17 Released"
+          },
+          {
+            "change": "2016-08-18 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-17",
+        "affects": "8u121 b13, 7u131 b12, 6u141 b12, R28.3.13",
+        "protocol": "DSA",
+        "action": "Increased the minimum key length for DSA certificates to 1024 bits.",
+        "howToTest": "Changing minimum key length for DSA certificates.",
+        "testLink": "configure_crypto.html#DSAKeySize",
+        "changeLog": [
+          {
+            "change": "2017-01-17 Released"
+          },
+          {
+            "change": "2016-08-18 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2017-01-17",
+        "affects": "7u131 b12, 6u141 b12, R28.3.13",
+        "protocol": "TLS 1.0 to TLS 1.2",
+        "action": "Added TLS 1.1 and 1.2 to the client list of default-enabled protocols.",
+        "howToTest": "Changing default TLS protocol version for client end points.",
+        "testLink": "configure_crypto.html#enableTLSv1_2",
+        "changeLog": [
+          {
+            "change": "2017-01-17 Released"
+          },
+          {
+            "change": "2016-08-18 Announced"
+          }
+        ]
+      },
+      {
+        "date": "2016-10-18",
+        "affects": "8u111 b14, 7u121 b15, 6u131 b14, R28.3.12",
+        "protocol": "RSA",
+        "action": "Increased the minimum RSA key length to 1024 for signed jars.\n JARs signed with RSA using smaller keys will be treated as unsigned.",
+        "howToTest": "Changing minimum key length for RSA.",
+        "testLink": "configure_crypto.html#RSAKeySize",
+        "changeLog": [
+          {
+            "change": "2016-10-24 Added to Cryptographic Roadmap"
+          },
+          {
+            "change": "2016-10-18 Released"
+          }
+        ]
+      },
+      {
+        "date": "2016-10-18",
+        "affects": "8u111 b14, 7u121 b15, 6u131 b14, R28.3.12",
+        "protocol": "MD2",
+        "action": "JAR files signed with MD2 algorithms are treated as unsigned JARs.",
+        "howToTest": "Disabling MD2 signed jars",
+        "testLink": "configure_crypto.html#disableMD5",
+        "changeLog": [
+          {
+            "change": "2016-10-24 Added to Cryptographic Roadmap"
+          },
+          {
+            "change": "2016-10-18 Released"
+          }
+        ]
+      },
+      {
+        "date": "2016-07-21",
+        "affects": "9-ea+128",
+        "protocol": "SHA-1",
+        "action": "Disabled SHA-1 in TLS Server certificate chains anchored by roots included by default in Oracle's JDK; local or enterprise CAs are not affected.",
+        "howToTest": "Disable SHA-1 in certificate chains anchored by roots included by default in Oracle's JDK",
+        "testLink": "configure_crypto.html#disableSHA1",
+        "changeLog": [
+          {
+            "change": "2021-10-19 Corrected the Action and Additional Information."
+          },
+          {
+            "change": "2016-07-21 Released"
+          }
+        ]
+      },
+      {
+        "date": "2016-07-19",
+        "affects": "8u101 b13, 7u111 b13",
+        "protocol": "SHA-1 to SHA-256 for Timestamping",
+        "action": "Time stamping in jarsigner will request SHA-256, rather than SHA-1 by default.",
+        "howToTest": "Use the ‑tsadigestalg option to specify the desired Timestamping algorithm.",
+        "testLink": "http://bugs.java.com/view_bug.do?bug_id=8038837",
+        "changeLog": [
+          {
+            "change": "2014-04-21 Announced",
+            "link": "http://bugs.java.com/view_bug.do?bug_id=8038837"
+          }
+        ]
+      },
+      {
+        "date": "2016-07-14",
+        "affects": "9-ea+127",
+        "protocol": "EC",
+        "action": "For TLS, disable EC curves less than 256 bits. Elsewhere, disable EC certificates with keys less than 224 bits.",
+        "howToTest": "Changing minimum key length for EC.",
+        "testLink": "configure_crypto.html#ECKeySize",
+        "changeLog": [
+          {
+            "change": "2016-07-14 Released"
+          }
+        ]
+      },
+      {
+        "date": "2016-04-29",
+        "affects": "6u115 b32",
+        "protocol": "TLS 1.2",
+        "action": "Added support for TLS 1.2 to JDK 6.",
+        "howToTest": "Changing default TLS protocol version for client end points.",
+        "testLink": "configure_crypto.html#enableTLSv1_2",
+        "changeLog": [
+          {
+            "change": "2016-04-29 Released"
+          }
+        ]
+      },
+      {
+        "date": "2016-03-09 ",
+        "affects": "9-ea+109",
+        "protocol": "Diffie-Hellman",
+        "action": "Increased the minimum key length For TLS to 1024 bits.",
+        "howToTest": "Changing minimum key length for Diffie-Hellman.",
+        "testLink": "configure_crypto.html#DHAKeySize",
+        "changeLog": [
+          {
+            "change": "2015-03-09 Released"
+          }
+        ]
+      },
+      {
+        "date": "2016-03-09 ",
+        "affects": "9-ea+109",
+        "protocol": "RSA and Diffie-Hellmann",
+        "action": "The default key size for the RSA and DiffieHellman AlgorithmParameterGenerator and KeyPairGenerator implementations has been increased from 1024 bits to 2048 bits. ",
+        "howToTest": "Explicitly set the key size to the desired value instead of relying on the default size.",
+        "changeLog": [
+          {
+            "change": "2016-02-16 Announced",
+            "link": "http://bugs.java.com/view_bug.do?bug_id=8138653"
+          }
+        ]
+      },
+      {
+        "date": "2016-02-25 ",
+        "affects": "9-ea+107",
+        "protocol": "DSA",
+        "action": "Increased the minimum key length for DSA certificates to 1024 bits.",
+        "howToTest": "Changing minimum key length for DSA certificates.",
+        "testLink": "configure_crypto.html#DSAKeySize",
+        "changeLog": [
+          {
+            "change": "2016-02-25 Released"
+          }
+        ]
+      },
+      {
+        "date": "2016-01-19 ",
+        "affects": "8u71 b15, 7u95 b14, 6u111 b12, R28.3.9",
+        "protocol": "SHA-1 to SHA-2",
+        "action": "Changed default setting for keytool/jarsigner from SHA-1 to SHA-2.",
+        "howToTest": "Use the  ‑digestalg and ‑sigalg options in jarsigner to specify the desired algorithm rather than relying on the default.",
+        "changeLog": [
+          {
+            "change": "2016-01-19 Released",
+            "link": "http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#R160_111"
+          }
+        ]
+      },
+      {
+        "date": "2016-01-19 ",
+        "affects": "6u111 b12",
+        "protocol": "TLS 1.1",
+        "action": "Added support for TLS 1.1 to JDK 6.",
+        "howToTest": "Changing default TLS protocol version for client end points.",
+        "testLink": "configure_crypto.html#enableTLSv1_2",
+        "changeLog": [
+          {
+            "change": "2016-01-19 Released",
+            "link": "http://www.oracle.com/technetwork/java/javase/documentation/overview-156328.html#R160_111"
+          }
+        ]
+      },
+      {
+        "date": "2016-01-19 ",
+        "affects": "8u71 b15, 7u95 b14, 6u111 b12, R28.3.9",
+        "protocol": "MD5",
+        "action": "Disabled MD5 certs in CertPath and Client/Server KeyExchanges signed with MD5withRSA in TLS 1.2.",
+        "howToTest": "Remove MD5 from the list of disabled algorithms",
+        "testLink": "http://www.oracle.com/technetwork/java/javase/8u71-relnotes-2773756.html#newft",
+        "changeLog": [
+          {
+            "change": "2015-11-16 Announced",
+            "link": "https://blogs.oracle.com/java-platform-group/entry/strengthening_signatures_part_2"
+          }
+        ]
+      }
+    ]
+  }
+}

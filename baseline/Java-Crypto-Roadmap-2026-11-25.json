@@ -1,0 +1,3108 @@
+{
+  "metadata": {
+    "schema_version": 1,
+    "as_of": "2026-11-25",
+    "roadmap_last_updated": "2026-11-05",
+    "source_page": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+    "data_script": "https://www.java.com/jcom/assets/cryptrmap.js",
+    "source_sha256": "b52812a6a83b446297ee98600edb16d8b2cde82777036d2ab46c4f2a0c11b590",
+    "released_count": 70,
+    "planned_count": 9,
+    "released_lts_explicit_count": 53,
+    "lts_majors": [
+      8,
+      11,
+      17,
+      21,
+      25
+    ],
+    "release_range": [
+      "2016-01-19",
+      "2026-10-20"
+    ],
+    "scope": "Full published Oracle roadmap inventory, including legacy/non-LTS historical rows. LTS columns contain only explicitly listed deliveries; no inherited availability is inferred."
+  },
+  "changes": [
+    {
+      "record_id": "CR-0001",
+      "capability_id": "crypto-9f962523b096",
+      "status": "Released",
+      "release_date": "2016-01-19",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "MD5",
+      "action": "Disabled MD5 certs in CertPath and Client/Server KeyExchanges signed with MD5withRSA in TLS 1.2.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u71 b15"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u95 b14",
+        "6u111 b12",
+        "R28.3.9"
+      ],
+      "all_releases_as_published": "8u71 b15, 7u95 b14, 6u111 b12, R28.3.9",
+      "effective_condition": "",
+      "technical_url": "http://www.oracle.com/technetwork/java/javase/8u71-relnotes-2773756.html#newft",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u71 b15",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u71-relnotes-2773756.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 69,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0002",
+      "capability_id": "crypto-d55d64388faa",
+      "status": "Released",
+      "release_date": "2016-01-19",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SHA-1 to SHA-2",
+      "action": "Changed default setting for keytool/jarsigner from SHA-1 to SHA-2.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u71 b15"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u95 b14",
+        "6u111 b12",
+        "R28.3.9"
+      ],
+      "all_releases_as_published": "8u71 b15, 7u95 b14, 6u111 b12, R28.3.9",
+      "effective_condition": "",
+      "technical_url": null,
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u71 b15",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u71-relnotes-2773756.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 67,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0003",
+      "capability_id": "crypto-c62bf888e6e3",
+      "status": "Released",
+      "release_date": "2016-01-19",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS 1.1",
+      "action": "Added support for TLS 1.1 to JDK 6.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "6u111 b12"
+      ],
+      "all_releases_as_published": "6u111 b12",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#enableTLSv1_2",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 68,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0004",
+      "capability_id": "crypto-7e4e8ba180fa",
+      "status": "Released",
+      "release_date": "2016-02-25",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "DSA",
+      "action": "Increased the minimum key length for DSA certificates to 1024 bits.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "9-ea+107"
+      ],
+      "all_releases_as_published": "9-ea+107",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DSAKeySize",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 66,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0005",
+      "capability_id": "crypto-dd251f57c056",
+      "status": "Released",
+      "release_date": "2016-03-09",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "Diffie-Hellman",
+      "action": "Increased the minimum key length For TLS to 1024 bits.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "9-ea+109"
+      ],
+      "all_releases_as_published": "9-ea+109",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DHAKeySize",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 64,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed. Roadmap release-date cell differs from its Released change-log text; date cell retained, source discrepancy preserved in snapshot."
+    },
+    {
+      "record_id": "CR-0006",
+      "capability_id": "crypto-6f4fec5b0360",
+      "status": "Released",
+      "release_date": "2016-03-09",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "RSA and Diffie-Hellmann",
+      "action": "The default key size for the RSA and DiffieHellman AlgorithmParameterGenerator and KeyPairGenerator implementations has been increased from 1024 bits to 2048 bits.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "9-ea+109"
+      ],
+      "all_releases_as_published": "9-ea+109",
+      "effective_condition": "",
+      "technical_url": null,
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 65,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0007",
+      "capability_id": "crypto-16d8ed16af2e",
+      "status": "Released",
+      "release_date": "2016-04-29",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS 1.2",
+      "action": "Added support for TLS 1.2 to JDK 6.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "6u115 b32"
+      ],
+      "all_releases_as_published": "6u115 b32",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#enableTLSv1_2",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 63,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0008",
+      "capability_id": "crypto-ef599117dcc0",
+      "status": "Released",
+      "release_date": "2016-07-14",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "EC",
+      "action": "For TLS, disable EC curves less than 256 bits. Elsewhere, disable EC certificates with keys less than 224 bits.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "9-ea+127"
+      ],
+      "all_releases_as_published": "9-ea+127",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#ECKeySize",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 62,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0009",
+      "capability_id": "crypto-2b36e69ce197",
+      "status": "Released",
+      "release_date": "2016-07-19",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SHA-1 to SHA-256 for Timestamping",
+      "action": "Time stamping in jarsigner will request SHA-256, rather than SHA-1 by default.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u101 b13"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u111 b13"
+      ],
+      "all_releases_as_published": "8u101 b13, 7u111 b13",
+      "effective_condition": "",
+      "technical_url": "http://bugs.java.com/view_bug.do?bug_id=8038837",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u101 b13",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u101-relnotes-3021761.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 61,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0010",
+      "capability_id": "crypto-c9868b08285b",
+      "status": "Released",
+      "release_date": "2016-07-21",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SHA-1",
+      "action": "Disabled SHA-1 in TLS Server certificate chains anchored by roots included by default in Oracle's JDK; local or enterprise CAs are not affected.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "9-ea+128"
+      ],
+      "all_releases_as_published": "9-ea+128",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#disableSHA1",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 60,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0011",
+      "capability_id": "crypto-b0721177a541",
+      "status": "Released",
+      "release_date": "2016-10-18",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "MD2",
+      "action": "JAR files signed with MD2 algorithms are treated as unsigned JARs.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u111 b14"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u121 b15",
+        "6u131 b14",
+        "R28.3.12"
+      ],
+      "all_releases_as_published": "8u111 b14, 7u121 b15, 6u131 b14, R28.3.12",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#disableMD5",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u111 b14",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u111-relnotes-3124969.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 59,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0012",
+      "capability_id": "crypto-17063d55f16f",
+      "status": "Released",
+      "release_date": "2016-10-18",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "RSA",
+      "action": "Increased the minimum RSA key length to 1024 for signed jars. JARs signed with RSA using smaller keys will be treated as unsigned.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u111 b14"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u121 b15",
+        "6u131 b14",
+        "R28.3.12"
+      ],
+      "all_releases_as_published": "8u111 b14, 7u121 b15, 6u131 b14, R28.3.12",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#RSAKeySize",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u111 b14",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u111-relnotes-3124969.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 58,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0013",
+      "capability_id": "crypto-6678eedf6b37",
+      "status": "Released",
+      "release_date": "2017-01-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "3DES",
+      "action": "For TLS, 3DES has been added to the jdk.tls.legacyAlgorithms security property. 3DES cipher suites will be used only if no stronger candidates can be used.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u121 b13"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u131 b12",
+        "6u141 b12",
+        "R28.3.13"
+      ],
+      "all_releases_as_published": "8u121 b13, 7u131 b12, 6u141 b12, R28.3.13",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#3DES",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u121 b13",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u121-relnotes-3315208.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 52,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0014",
+      "capability_id": "crypto-2c0dc59ad21d",
+      "status": "Released",
+      "release_date": "2017-01-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "DSA",
+      "action": "Increased the maximum key length for DSA to 2048 bits",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u131 b12"
+      ],
+      "all_releases_as_published": "7u131 b12",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#NSASuiteB",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 54,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0015",
+      "capability_id": "crypto-7e4e8ba180fa",
+      "status": "Released",
+      "release_date": "2017-01-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "DSA",
+      "action": "Increased the minimum key length for DSA certificates to 1024 bits.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u121 b13"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u131 b12",
+        "6u141 b12",
+        "R28.3.13"
+      ],
+      "all_releases_as_published": "8u121 b13, 7u131 b12, 6u141 b12, R28.3.13",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DSAKeySize",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u121 b13",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u121-relnotes-3315208.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 56,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0016",
+      "capability_id": "crypto-ef599117dcc0",
+      "status": "Released",
+      "release_date": "2017-01-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "EC",
+      "action": "For TLS, disabled EC for keys of less than 256 bits. Elsewhere, disabled EC certificates with keys less than 224 bits.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u121 b13"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u131 b12",
+        "6u141 b12",
+        "R28.3.13"
+      ],
+      "all_releases_as_published": "8u121 b13, 7u131 b12, 6u141 b12, R28.3.13",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#ECKeySize",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u121 b13",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u121-relnotes-3315208.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 55,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0017",
+      "capability_id": "crypto-092df9958d18",
+      "status": "Released",
+      "release_date": "2017-01-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "RSA, DSA",
+      "action": "Increased the minimum key length to 1024 for XML signatures.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u121 b13"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u131 b12",
+        "6u141 b12",
+        "R28.3.13"
+      ],
+      "all_releases_as_published": "8u121 b13, 7u131 b12, 6u141 b12, R28.3.13",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#XMLSignature",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u121 b13",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u121-relnotes-3315208.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 51,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0018",
+      "capability_id": "crypto-f64c141825b2",
+      "status": "Released",
+      "release_date": "2017-01-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SHA224withDSA and SHA256withDSA",
+      "action": "Added support for the SHA224withDSA and SHA256withDSA signature algorithms.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u131 b12"
+      ],
+      "all_releases_as_published": "7u131 b12",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#NSASuiteB",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 53,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0019",
+      "capability_id": "crypto-8702b4e2cd08",
+      "status": "Released",
+      "release_date": "2017-01-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS 1.0 to TLS 1.2",
+      "action": "Added TLS 1.1 and 1.2 to the client list of default-enabled protocols.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u131 b12",
+        "6u141 b12",
+        "R28.3.13"
+      ],
+      "all_releases_as_published": "7u131 b12, 6u141 b12, R28.3.13",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#enableTLSv1_2",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 57,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0020",
+      "capability_id": "crypto-27bc1b5076bd",
+      "status": "Released",
+      "release_date": "2017-04-18",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "MD5",
+      "action": "JAR files signed with MD5 algorithms are treated as unsigned JARs.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u131 b11"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u141 b11",
+        "6u151 b10",
+        "R28.3.14"
+      ],
+      "all_releases_as_published": "8u131 b11, 7u141 b11, 6u151 b10, R28.3.14",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#disableMD5",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u131 b11",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u131-relnotes-3565278.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 50,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0021",
+      "capability_id": "crypto-c9868b08285b",
+      "status": "Released",
+      "release_date": "2017-07-18",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SHA-1",
+      "action": "Disabled SHA-1 in TLS Server certificate chains anchored by roots included by default in Oracle's JDK; local or enterprise CAs are not affected.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u141 b15"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u151 b15",
+        "6u161 b12",
+        "R28.3.15"
+      ],
+      "all_releases_as_published": "8u141 b15, 7u151 b15, 6u161 b12, R28.3.15",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#disableSHA1",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u141 b15",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u141-relnotes-3720385.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 49,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0022",
+      "capability_id": "crypto-d7646809c646",
+      "status": "Released",
+      "release_date": "2017-07-18",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SHA-1 to SHA-256 for Timestamping",
+      "action": "Time stamping in jarsigner requests SHA-256, rather than SHA-1 by default.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "6u161 b12",
+        "R28.3.15"
+      ],
+      "all_releases_as_published": "6u161 b12, R28.3.15",
+      "effective_condition": "",
+      "technical_url": null,
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 48,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0023",
+      "capability_id": "crypto-f74de139315c",
+      "status": "Released",
+      "release_date": "2017-10-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "DSA",
+      "action": "Upgraded the jarsigner and keytool ‑sigalg default to SHA256withDSA and the ‑keysize default to 2048 for DSA keys.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u151 b12"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u161 b13",
+        "6u171 b13",
+        "R28.3.16"
+      ],
+      "all_releases_as_published": "8u151 b12, 7u161 b13, 6u171 b13, R28.3.16",
+      "effective_condition": "",
+      "technical_url": null,
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u151 b12",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u151-relnotes-3850493.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 47,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0024",
+      "capability_id": "crypto-7be2ea9b9684",
+      "status": "Released",
+      "release_date": "2017-10-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "DSA, SHA224withDSA, SHA256withDSA",
+      "action": "Added support for the SHA224withDSA and SHA256withDSA signature algorithms and DSA keys with sizes up to 2048 bits.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "6u171 b13",
+        "R28.3.16"
+      ],
+      "all_releases_as_published": "6u171 b13, R28.3.16",
+      "effective_condition": "",
+      "technical_url": null,
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 46,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0025",
+      "capability_id": "crypto-3d3a694bb863",
+      "status": "Released",
+      "release_date": "2018-01-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "DES, RC4",
+      "action": "Disabled the TLS EXPORT cipher suites.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u161 b12"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "9.0.4+11",
+        "7u171 b11",
+        "6u181 b10",
+        "R28.3.17"
+      ],
+      "all_releases_as_published": "9.0.4+11, 8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#TLSEXPORT",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u161 b12",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u161-relnotes-4021379.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 40,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0026",
+      "capability_id": "crypto-e60ad973ee50",
+      "status": "Released",
+      "release_date": "2018-01-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "DSA",
+      "action": "JAR files signed with DSA keys less than 1024 bits are treated as unsigned JARs.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u161 b12"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u171 b11",
+        "6u181 b10",
+        "R28.3.17"
+      ],
+      "all_releases_as_published": "8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#MinRSADSAKeys",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u161 b12",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u161-relnotes-4021379.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 39,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0027",
+      "capability_id": "crypto-dd251f57c056",
+      "status": "Released",
+      "release_date": "2018-01-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "Diffie-Hellman",
+      "action": "For TLS, increased the minimum key length to 1024 bits.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u161 b12"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u171 b11",
+        "6u181 b10",
+        "R28.3.17"
+      ],
+      "all_releases_as_published": "8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DHAKeySize",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u161 b12",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u161-relnotes-4021379.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 45,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0028",
+      "capability_id": "crypto-ce4b94027303",
+      "status": "Released",
+      "release_date": "2018-01-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "Diffie-Hellman, DSA",
+      "action": "Added support for DiffieHellman keys up to 8192 bits and DSA keys up to 3072 bits.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u161 b12"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u171 b11",
+        "6u181 b10",
+        "R28.3.17"
+      ],
+      "all_releases_as_published": "8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+      "effective_condition": "",
+      "technical_url": null,
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u161 b12",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u161-relnotes-4021379.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 42,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0029",
+      "capability_id": "crypto-104b7274475c",
+      "status": "Released",
+      "release_date": "2018-01-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "PKCS12",
+      "action": "Added PKCS12 KeyStore support for secret keys and trusted certificates to allow users to migrate from JKS to PKCS12.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u171 b11"
+      ],
+      "all_releases_as_published": "7u171 b11",
+      "effective_condition": "",
+      "technical_url": null,
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 43,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0030",
+      "capability_id": "crypto-9d822de1e818",
+      "status": "Released",
+      "release_date": "2018-01-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "RSA, DSA, Diffie-Hellman",
+      "action": "Increased the default key size of the RSA, DSA, and DiffieHellman AlgorithmParameterGenerator and KeyPairGenerator implementations from 1024 to 2048 bits.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u161 b12"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "9.0.4+11",
+        "7u171 b11",
+        "6u181 b10",
+        "R28.3.17"
+      ],
+      "all_releases_as_published": "9.0.4+11, 8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#defKeySize",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u161 b12",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u161-relnotes-4021379.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 41,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0031",
+      "capability_id": "crypto-58deeae84490",
+      "status": "Released",
+      "release_date": "2018-01-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "Several",
+      "action": "Enabled unlimited cryptographic policy by default.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u161 b12"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u171 b11",
+        "6u181 b10",
+        "R28.3.17"
+      ],
+      "all_releases_as_published": "8u161 b12, 7u171 b11, 6u181 b10, R28.3.17",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#unlimitedJCE",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u161 b12",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u161-relnotes-4021379.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 44,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0032",
+      "capability_id": "crypto-72352f81a090",
+      "status": "Released",
+      "release_date": "2018-04-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "3DES",
+      "action": "Disabled the TLS 3DES cipher suites.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u171 b11"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "10.0.1+10",
+        "7u181 b09",
+        "6u191 b09",
+        "R28.3.18"
+      ],
+      "all_releases_as_published": "10.0.1+10, 8u171 b11, 7u181 b09, 6u191 b09, R28.3.18",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#3DESONTLS",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u171 b11",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u171-relnotes-4308888.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 37,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0033",
+      "capability_id": "crypto-639c0ea30c56",
+      "status": "Released",
+      "release_date": "2018-04-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "EC",
+      "action": "Set minimum EC key length for XML signatures to 224 bits.",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u171 b11"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "10.0.1+10"
+      ],
+      "all_releases_as_published": "10.0.1+10, 8u171 b11",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#ECKeyLengthforXML",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u171 b11",
+          "url": "http://www.oracle.com/technetwork/java/javase/8u171-relnotes-4308888.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 38,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0034",
+      "capability_id": "crypto-97d6082b4f10",
+      "status": "Released",
+      "release_date": "2018-07-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "AES/GCM",
+      "action": "Added support for AEAD TLS Cipher Suites.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u191 b08"
+      ],
+      "all_releases_as_published": "7u191 b08",
+      "effective_condition": "",
+      "technical_url": null,
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 36,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0035",
+      "capability_id": "crypto-b82ad3f7fd50",
+      "status": "Released",
+      "release_date": "2018-10-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "DES",
+      "action": "Disabled the TLS DES Cipher Suites",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u191 b12"
+        ],
+        "11": [
+          "11.0.1+13"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u201 b11",
+        "6u211 b11",
+        "R28.3.20"
+      ],
+      "all_releases_as_published": "11.0.1+13 , 8u191 b12, 7u201 b11, 6u211 b11, R28.3.20",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DESONTLS",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u191 b12",
+          "url": "https://www.oracle.com/technetwork/java/javase/8u191-relnotes-5032181.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.1+13",
+          "url": "https://www.oracle.com/technetwork/java/javase/11-0-1-relnotes-5032023.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 35,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0036",
+      "capability_id": "crypto-f208307feb33",
+      "status": "Released",
+      "release_date": "2019-01-15",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "PBKDF2, PBES2",
+      "action": "Added support for PBKDF2 SecretKeyFactory and PBES2 Cipher algorithms.",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u211 b07"
+      ],
+      "all_releases_as_published": "7u211 b07",
+      "effective_condition": "",
+      "technical_url": null,
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 34,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0037",
+      "capability_id": "crypto-033b43682529",
+      "status": "Released",
+      "release_date": "2019-01-15",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "RC4",
+      "action": "Disabled the TLS RC4 cipher suites",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u211 b07"
+      ],
+      "all_releases_as_published": "7u211 b07",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#RC4TLS",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 33,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0038",
+      "capability_id": "crypto-26dd2b9bde9a",
+      "status": "Released",
+      "release_date": "2019-01-15",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "anon, NULL",
+      "action": "Disabled the TLS anon and NULL cipher suites",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u201 b09"
+        ],
+        "11": [
+          "11.0.2+7"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u211 b07"
+      ],
+      "all_releases_as_published": "11.0.2+7, 8u201 b09, 7u211 b07",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#anonTLS",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u201 b09",
+          "url": "https://www.oracle.com/technetwork/java/javase/8u201-relnotes-5209271.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.2+7",
+          "url": "https://www.oracle.com/technetwork/java/javase/11-0-2-relnotes-5188746.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 32,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0039",
+      "capability_id": "crypto-1a550ce5c90d",
+      "status": "Released",
+      "release_date": "2019-04-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS",
+      "action": "Distrusted TLS server certificates anchored by Symantec Root CAs. See Oracle's Plan for Distrusting Symantec TLS Certificates in the JDK for more information.",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u211 b12"
+        ],
+        "11": [
+          "11.0.3+12"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u221 b08"
+      ],
+      "all_releases_as_published": "11.0.3+12, 8u211 b12, 7u221 b08",
+      "effective_condition": "",
+      "technical_url": "https://blogs.oracle.com/java/oracles-plan-for-distrusting-symantec-tls-certificates-in-the-jdk",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u211 b12",
+          "url": "https://www.oracle.com/technetwork/java/javase/8u211-relnotes-5290139.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.3+12",
+          "url": "https://www.oracle.com/technetwork/java/javase/11-0-3-oracle-relnotes-5290048.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 31,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0040",
+      "capability_id": "crypto-c91de40eb0cd",
+      "status": "Released",
+      "release_date": "2019-07-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "DES",
+      "action": "Disabled Kerberos DES encryption",
+      "lts_majors_explicit": [],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u231 b08"
+      ],
+      "all_releases_as_published": "7u231 b08",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#kerberosDES",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 30,
+      "notes": "Historical entry: only legacy or non-LTS/early-access releases are explicitly listed."
+    },
+    {
+      "record_id": "CR-0041",
+      "capability_id": "crypto-39124c50156e",
+      "status": "Released",
+      "release_date": "2019-10-15",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "ECC on TLS",
+      "action": "Disabled non-NIST Suite B EC curves (sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1, secp256k1) when negotiating TLS sessions",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u231 b11"
+        ],
+        "11": [
+          "11.0.5+10"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "13.0.1+9",
+        "7u241 b08"
+      ],
+      "all_releases_as_published": "13.0.1+9, 11.0.5+10, 8u231 b11, 7u241 b08",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DisablenonNIST",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u231 b11",
+          "url": "https://www.oracle.com/technetwork/java/javase/8u231-relnotes-5592812.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.5+10",
+          "url": "https://www.oracle.com/technetwork/java/javase/11-0-5-oracle-relnotes-5592801.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 29,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0042",
+      "capability_id": "crypto-1f34159fe254",
+      "status": "Released",
+      "release_date": "2020-07-14",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS 1.2",
+      "action": "Increased the priority of the GCM cipher suites",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u261 b12"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "8u261 b12",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#GCMCipher",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u261 b12",
+          "url": "https://www.oracle.com/java/technologies/javase/8u261-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 28,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0043",
+      "capability_id": "crypto-76877213ca34",
+      "status": "Released",
+      "release_date": "2020-07-14",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS 1.3",
+      "action": "Added support for TLS 1.3",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u261 b12"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "8u261 b12",
+      "effective_condition": "",
+      "technical_url": null,
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u261 b12",
+          "url": "https://www.oracle.com/java/technologies/javase/8u261-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 27,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0044",
+      "capability_id": "crypto-f02926cfe27e",
+      "status": "Released",
+      "release_date": "2020-10-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "ECC",
+      "action": "Disabled weak named curves by default in TLS, CertPath, and Signed JARs",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u271 b09"
+        ],
+        "11": [
+          "11.0.9+7"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u281 b06"
+      ],
+      "all_releases_as_published": "11.0.9+7, 8u271 b09, 7u281 b06",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DisableWeakNamedCurves",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u271 b09",
+          "url": "https://www.oracle.com/java/technologies/javase/8u271-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.9+7",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-9-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 25,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0045",
+      "capability_id": "crypto-d1038cae52c3",
+      "status": "Released",
+      "release_date": "2020-10-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SHA-1, RSA/DSA keys less than 2048-bits",
+      "action": "Tools warn about weak algorithms before they are disabled",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u271 b09"
+        ],
+        "11": [
+          "11.0.9+7"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u281 b06"
+      ],
+      "all_releases_as_published": "11.0.9+7, 8u271 b09, 7u281 b06",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#WarnWeakAlgorithms",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u271 b09",
+          "url": "https://www.oracle.com/java/technologies/javase/8u271-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.9+7",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-9-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 26,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0046",
+      "capability_id": "crypto-60ac3072f91e",
+      "status": "Released",
+      "release_date": "2021-01-19",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS 1.0 to TLS 1.3",
+      "action": "Added support for the x25519 and x448 named elliptic curve groups to TLS",
+      "lts_majors_explicit": [
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [
+          "11.0.10+8"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "11.0.10+8",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#TLSsupportforx25519andx448",
+      "release_note_evidence": [
+        {
+          "major": 11,
+          "version": "11.0.10+8",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-10-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 24,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0047",
+      "capability_id": "crypto-1e49877000ac",
+      "status": "Released",
+      "release_date": "2021-04-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS 1.0, TLS 1.1",
+      "action": "Disabled TLS 1.0 and TLS 1.1",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u291 b10"
+        ],
+        "11": [
+          "11.0.11+9"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u301 b09"
+      ],
+      "all_releases_as_published": "11.0.11+9, 8u291 b10, 7u301 b09",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DisableTLS",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u291 b10",
+          "url": "https://www.oracle.com/java/technologies/javase/8u291-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.11+9",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-11-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 23,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0048",
+      "capability_id": "crypto-1318cfc09d68",
+      "status": "Released",
+      "release_date": "2021-07-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "PKCS12, SHA-1, 3DES, RC2",
+      "action": "Upgraded the default PKCS12 encryption algorithms",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u301 b09"
+        ],
+        "11": [
+          "11.0.12+8"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u311 b07"
+      ],
+      "all_releases_as_published": "11.0.12+8, 8u301 b09, 7u311 b07",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#UpgradePKCS12",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u301 b09",
+          "url": "https://www.oracle.com/java/technologies/javase/8u301-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.12+8",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-12-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 20,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0049",
+      "capability_id": "crypto-48c9997f0e4d",
+      "status": "Released",
+      "release_date": "2021-07-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "RSA",
+      "action": "Removed root certificates with 1024-bit keys",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u301 b09"
+        ],
+        "11": [
+          "11.0.12+8"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u311 b07"
+      ],
+      "all_releases_as_published": "11.0.12+8, 8u301 b09, 7u311 b07",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#RemoveRootCerts",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u301 b09",
+          "url": "https://www.oracle.com/java/technologies/javase/8u301-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.12+8",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-12-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 21,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0050",
+      "capability_id": "crypto-e93512b13606",
+      "status": "Released",
+      "release_date": "2021-07-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SHA-2",
+      "action": "Added support for SHA-2 HmacPBE algorithms",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u301 b09"
+        ],
+        "11": [
+          "11.0.12+8"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u311 b07"
+      ],
+      "all_releases_as_published": "11.0.12+8, 8u301 b09, 7u311 b07",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#SupportHmacPBEAlgorithms",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u301 b09",
+          "url": "https://www.oracle.com/java/technologies/javase/8u301-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.12+8",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-12-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 22,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0051",
+      "capability_id": "crypto-477f9562e939",
+      "status": "Released",
+      "release_date": "2021-10-19",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS 1.0 to TLS 1.3",
+      "action": "Improve the TLS cipher suite order",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u311 b11"
+        ],
+        "11": [
+          "11.0.13+10"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [
+        "7u321 b08"
+      ],
+      "all_releases_as_published": "11.0.13+10, 8u311 b11, 7u321 b08",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#TLSCipherSuiteOrder",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u311 b11",
+          "url": "https://www.oracle.com/java/technologies/javase/8u311-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.13+10",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-13-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 19,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0052",
+      "capability_id": "crypto-070ee95d0432",
+      "status": "Released",
+      "release_date": "2022-04-19",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLSv1.2, TLSv1.3",
+      "action": "Added support for ChaCha20 and Poly1305 TLS Cipher Suites",
+      "lts_majors_explicit": [
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [
+          "11.0.15+8"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "11.0.15+8",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#AddSupportTLSCipherSuites",
+      "release_note_evidence": [
+        {
+          "major": 11,
+          "version": "11.0.15+8",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-15-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 18,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0053",
+      "capability_id": "crypto-97eec57a56c4",
+      "status": "Released",
+      "release_date": "2022-07-19",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLSv1.3",
+      "action": "Enabled TLSv1.3 by default on the client",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u341 b10"
+        ],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "8u341 b10",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#EnableTLSv13",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u341 b10",
+          "url": "https://www.oracle.com/java/technologies/javase/8u341-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 17,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0054",
+      "capability_id": "crypto-34f1d54ec489",
+      "status": "Released",
+      "release_date": "2022-10-18",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "3DES, RC4",
+      "action": "Disabled 3DES and RC4 in Kerberos",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u351 b10"
+        ],
+        "11": [
+          "11.0.17+10"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "11.0.17+10, 8u351 b10",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#Disable3DESandRC4",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u351 b10",
+          "url": "https://www.oracle.com/java/technologies/javase/8u351-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.17+10",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-17-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 16,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0055",
+      "capability_id": "crypto-c4d6c97521c5",
+      "status": "Released",
+      "release_date": "2022-10-18",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SHA-1",
+      "action": "Disabled SHA-1 JARs signed after 2019-01-01",
+      "lts_majors_explicit": [
+        8,
+        11,
+        17
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u351 b10"
+        ],
+        "11": [
+          "11.0.17+10"
+        ],
+        "17": [
+          "17.0.5+9"
+        ],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "17.0.5+9, 11.0.17+10, 8u351 b10",
+      "effective_condition": "Applies to JARs signed after 2019-01-01.",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DisableSHA1SignedJars",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u351 b10",
+          "url": "https://www.oracle.com/java/technologies/javase/8u351-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.17+10",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-17-relnotes.html"
+        },
+        {
+          "major": 17,
+          "version": "17.0.5+9",
+          "url": "https://www.oracle.com/java/technologies/javase/17-0-5-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 14,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0056",
+      "capability_id": "crypto-51fed27f1e0a",
+      "status": "Released",
+      "release_date": "2022-10-18",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SHA-2",
+      "action": "Upgraded the default PKCS12 MAC algorithm",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u351 b10"
+        ],
+        "11": [
+          "11.0.17+10"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "11.0.17+10, 8u351 b10",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#UpgradingPKCS12Mac",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u351 b10",
+          "url": "https://www.oracle.com/java/technologies/javase/8u351-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.17+10",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-17-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 15,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0057",
+      "capability_id": "crypto-ae3f5afbfc8d",
+      "status": "Released",
+      "release_date": "2023-04-18",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "SSLv2Hello, SSLv3",
+      "action": "Made it harder to re-enable SSLv3 (previously disabled) and SSLv2Hello",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u371 b11"
+        ],
+        "11": [
+          "11.0.19+9"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "11.0.19+9, 8u371 b11",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#RemoveSSLv2HelloAndSSLv3",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u371 b11",
+          "url": "https://www.oracle.com/java/technologies/javase/8u371-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.19+9",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-19-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 13,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0058",
+      "capability_id": "crypto-cbf9159043e1",
+      "status": "Released",
+      "release_date": "2023-10-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS",
+      "action": "Uses the server's cipher suite preference order instead of the client's when establishing a TLS connection",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u391 b13"
+        ],
+        "11": [
+          "11.0.21+9"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "11.0.21+9, 8u391 b13",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#SettingTLSOrder",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u391 b13",
+          "url": "https://www.oracle.com/java/technologies/javase/8u391-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.21+9",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-21-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 11,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0059",
+      "capability_id": "crypto-9dc61490ad9e",
+      "status": "Released",
+      "release_date": "2023-10-17",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLSv1.2",
+      "action": "Increased the default TLS Diffie-Hellman group size from 1024-bit to 2048-bit(4)",
+      "lts_majors_explicit": [
+        8,
+        11,
+        17
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u391 b13"
+        ],
+        "11": [
+          "11.0.21+9"
+        ],
+        "17": [
+          "17.0.9+11"
+        ],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "17.0.9+11, 11.0.21+9, 8u391 b13",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#IncreaseTLSDiffie",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u391 b13",
+          "url": "https://www.oracle.com/java/technologies/javase/8u391-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.21+9",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-21-relnotes.html"
+        },
+        {
+          "major": 17,
+          "version": "17.0.9+11",
+          "url": "https://www.oracle.com/java/technologies/javase/17-0-9-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 12,
+      "notes": "Source action refers to footnote (4), which is not defined in the captured page; consult technical guidance for TLS context."
+    },
+    {
+      "record_id": "CR-0060",
+      "capability_id": "crypto-d672c327f875",
+      "status": "Released",
+      "release_date": "2024-04-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "XML Signature",
+      "action": "Enabled XML Signature secure validation mode by default",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u411 b09"
+        ],
+        "11": [
+          "11.0.23+7"
+        ],
+        "17": [],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "11.0.23+7, 8u411 b09",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#EnableXMLSignature",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u411 b09",
+          "url": "https://www.oracle.com/java/technologies/javase/8u411-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.23+7",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-23-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 10,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0061",
+      "capability_id": "crypto-3c1e0d14bc6e",
+      "status": "Released",
+      "release_date": "2024-07-16",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "DTLS 1.0",
+      "action": "Disabled DTLS 1.0",
+      "lts_majors_explicit": [
+        11,
+        17
+      ],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [
+          "11.0.24+7"
+        ],
+        "17": [
+          "17.0.12+8"
+        ],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "17.0.12+8, 11.0.24+7",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DisableDTLS",
+      "release_note_evidence": [
+        {
+          "major": 11,
+          "version": "11.0.24+7",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-24-relnotes.html"
+        },
+        {
+          "major": 17,
+          "version": "17.0.12+8",
+          "url": "https://www.oracle.com/java/technologies/javase/17-0-12-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 9,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0062",
+      "capability_id": "crypto-f9afaeb4664c",
+      "status": "Released",
+      "release_date": "2024-10-15",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS",
+      "action": "Disabled TLS_ECDH Cipher Suites",
+      "lts_majors_explicit": [
+        8,
+        11,
+        17
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u431 b10"
+        ],
+        "11": [
+          "11.0.25+9"
+        ],
+        "17": [
+          "17.0.13+10"
+        ],
+        "21": [],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "17.0.13+10, 11.0.25+9, 8u431 b10",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DisableTLS_ECDH",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u431 b10",
+          "url": "https://www.oracle.com/java/technologies/javase/8u431-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.25+9",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-25-relnotes.html"
+        },
+        {
+          "major": 17,
+          "version": "17.0.13+10",
+          "url": "https://www.oracle.com/java/technologies/javase/17-0-13-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 7,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0063",
+      "capability_id": "crypto-860c5177f8d7",
+      "status": "Released",
+      "release_date": "2024-10-15",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS",
+      "action": "Distrusted TLS server certificates anchored by Entrust root certificates and issued after Nov 11, 2024",
+      "lts_majors_explicit": [
+        8,
+        11,
+        17,
+        21
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u431 b10"
+        ],
+        "11": [
+          "11.0.25+9"
+        ],
+        "17": [
+          "17.0.13+10"
+        ],
+        "21": [
+          "21.0.5+9"
+        ],
+        "25": []
+      },
+      "other_releases": [
+        "23.0.1+11"
+      ],
+      "all_releases_as_published": "23.0.1+11, 21.0.5+9, 17.0.13+10, 11.0.25+9, 8u431 b10",
+      "effective_condition": "TLS server certificates issued after 2024-11-11; see later release notes for subsequent policy changes.",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#Distrust_Entrust",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u431 b10",
+          "url": "https://www.oracle.com/java/technologies/javase/8u431-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.25+9",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-25-relnotes.html"
+        },
+        {
+          "major": 17,
+          "version": "17.0.13+10",
+          "url": "https://www.oracle.com/java/technologies/javase/17-0-13-relnotes.html"
+        },
+        {
+          "major": 21,
+          "version": "21.0.5+9",
+          "url": "https://www.oracle.com/java/technologies/javase/21-0-5-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 8,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0064",
+      "capability_id": "crypto-e40c249b12c4",
+      "status": "Released",
+      "release_date": "2025-04-15",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS",
+      "action": "Distrusted TLS server certificates anchored by Camerfirma root certificates and issued after April 15, 2025",
+      "lts_majors_explicit": [
+        8,
+        11,
+        17,
+        21
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u451 b10"
+        ],
+        "11": [
+          "11.0.27+8"
+        ],
+        "17": [
+          "17.0.15+9"
+        ],
+        "21": [
+          "21.0.7+8"
+        ],
+        "25": []
+      },
+      "other_releases": [
+        "24.0.1+9"
+      ],
+      "all_releases_as_published": "24.0.1+9, 21.0.7+8, 17.0.15+9, 11.0.27+8, 8u451 b10",
+      "effective_condition": "TLS server certificates issued after 2025-04-15; see later release notes for subsequent policy changes.",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#Distrust_CamerfirmaRoots",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u451 b10",
+          "url": "https://www.oracle.com/java/technologies/javase/8u451-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.27+8",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-27-relnotes.html"
+        },
+        {
+          "major": 17,
+          "version": "17.0.15+9",
+          "url": "https://www.oracle.com/java/technologies/javase/17-0-15-relnotes.html"
+        },
+        {
+          "major": 21,
+          "version": "21.0.7+8",
+          "url": "https://www.oracle.com/java/technologies/javase/21-0-7-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 6,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0065",
+      "capability_id": "crypto-77f053eb24ba",
+      "status": "Released",
+      "release_date": "2026-01-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLS",
+      "action": "Disabled TLS_RSA Cipher Suites",
+      "lts_majors_explicit": [
+        8,
+        11,
+        17,
+        21
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u481 b10"
+        ],
+        "11": [
+          "11.0.30+7"
+        ],
+        "17": [
+          "17.0.18+8"
+        ],
+        "21": [
+          "21.0.10+8"
+        ],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "21.0.10+8, 17.0.18+8, 11.0.30+7, 8u481 b10",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DisableTLS_RSA",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u481 b10",
+          "url": "https://www.oracle.com/java/technologies/javase/8u481-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.30+7",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-30-relnotes.html"
+        },
+        {
+          "major": 17,
+          "version": "17.0.18+8",
+          "url": "https://www.oracle.com/java/technologies/javase/17-0-18-relnotes.html"
+        },
+        {
+          "major": 21,
+          "version": "21.0.10+8",
+          "url": "https://www.oracle.com/java/technologies/javase/21-0-10-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 5,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0066",
+      "capability_id": "crypto-4f647664b7eb",
+      "status": "Released",
+      "release_date": "2026-01-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "TLSv1.2, DTLSv1.2",
+      "action": "Disabled SHA-1 in TLS/DTLS 1.2 handshake signatures",
+      "lts_majors_explicit": [
+        8,
+        11,
+        17,
+        21
+      ],
+      "first_releases_explicit": {
+        "8": [
+          "8u481 b10"
+        ],
+        "11": [
+          "11.0.30+7"
+        ],
+        "17": [
+          "17.0.18+8"
+        ],
+        "21": [
+          "21.0.10+8"
+        ],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "21.0.10+8, 17.0.18+8, 11.0.30+7, 8u481 b10",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#DisableSHA1_TLS_DTLS",
+      "release_note_evidence": [
+        {
+          "major": 8,
+          "version": "8u481 b10",
+          "url": "https://www.oracle.com/java/technologies/javase/8u481-relnotes.html"
+        },
+        {
+          "major": 11,
+          "version": "11.0.30+7",
+          "url": "https://www.oracle.com/java/technologies/javase/11-0-30-relnotes.html"
+        },
+        {
+          "major": 17,
+          "version": "17.0.18+8",
+          "url": "https://www.oracle.com/java/technologies/javase/17-0-18-relnotes.html"
+        },
+        {
+          "major": 21,
+          "version": "21.0.10+8",
+          "url": "https://www.oracle.com/java/technologies/javase/21-0-10-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 4,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0067",
+      "capability_id": "crypto-ed1ef46b0572",
+      "status": "Released",
+      "release_date": "2026-10-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "ML-DSA",
+      "action": "Added support for ML-DSA Digital Signature Algorithm",
+      "lts_majors_explicit": [
+        17,
+        21
+      ],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [
+          "17.0.21+9"
+        ],
+        "21": [
+          "21.0.13+10"
+        ],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "21.0.13+10, 17.0.21+9",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#Add_ML-DSA",
+      "release_note_evidence": [
+        {
+          "major": 17,
+          "version": "17.0.21+9",
+          "url": "https://www.oracle.com/java/technologies/javase/17-0-21-relnotes.html"
+        },
+        {
+          "major": 21,
+          "version": "21.0.13+10",
+          "url": "https://www.oracle.com/java/technologies/javase/21-0-13-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 3,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0068",
+      "capability_id": "crypto-2b0ca10fe436",
+      "status": "Released",
+      "release_date": "2026-10-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "ML-KEM",
+      "action": "Added Support for ML-KEM Key Encapsulation Mechanism",
+      "lts_majors_explicit": [
+        17,
+        21
+      ],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [
+          "17.0.21+9"
+        ],
+        "21": [
+          "21.0.13+10"
+        ],
+        "25": []
+      },
+      "other_releases": [],
+      "all_releases_as_published": "21.0.13+10, 17.0.21+9",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#Add_ML-KEM",
+      "release_note_evidence": [
+        {
+          "major": 17,
+          "version": "17.0.21+9",
+          "url": "https://www.oracle.com/java/technologies/javase/17-0-21-relnotes.html"
+        },
+        {
+          "major": 21,
+          "version": "21.0.13+10",
+          "url": "https://www.oracle.com/java/technologies/javase/21-0-13-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 2,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0069",
+      "capability_id": "crypto-c3b714bdce63",
+      "status": "Released",
+      "release_date": "2026-10-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "PBMAC1",
+      "action": "Added PKCS12 KeyStore Support for PBMAC1",
+      "lts_majors_explicit": [
+        25
+      ],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": [
+          "25.0.5+9"
+        ]
+      },
+      "other_releases": [],
+      "all_releases_as_published": "25.0.5+9",
+      "effective_condition": "Algorithm support and its default selection are different; verify keystore configuration and release notes.",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#PKCS12_PBMAC1",
+      "release_note_evidence": [
+        {
+          "major": 25,
+          "version": "25.0.5+9",
+          "url": "https://www.oracle.com/java/technologies/javase/25-0-5-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 1,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0070",
+      "capability_id": "crypto-6db211609edc",
+      "status": "Released",
+      "release_date": "2026-10-20",
+      "target": null,
+      "target_precision": null,
+      "algorithm": "Post-Quantum Hybrid Key Exchange",
+      "action": "Added Post-Quantum Hybrid Key Exchange for TLS 1.3",
+      "lts_majors_explicit": [
+        25
+      ],
+      "first_releases_explicit": {
+        "8": [],
+        "11": [],
+        "17": [],
+        "21": [],
+        "25": [
+          "25.0.5+9"
+        ]
+      },
+      "other_releases": [],
+      "all_releases_as_published": "25.0.5+9",
+      "effective_condition": "Capability availability is not proof that a connection negotiates PQC; inspect configuration and technical guidance.",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#PQ_TLS1.3",
+      "release_note_evidence": [
+        {
+          "major": 25,
+          "version": "25.0.5+9",
+          "url": "https://www.oracle.com/java/technologies/javase/25-0-5-relnotes.html"
+        }
+      ],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "completed",
+      "source_index": 0,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0071",
+      "capability_id": "crypto-4b75543f5ada",
+      "status": "Planned",
+      "release_date": null,
+      "target": "2027-01-19",
+      "target_precision": "Day",
+      "algorithm": "ML-DSA",
+      "action": "Add Support for JARs Signed with ML-DSA",
+      "lts_majors_explicit": [
+        17,
+        21,
+        25
+      ],
+      "first_releases_explicit": {},
+      "other_releases": [],
+      "all_releases_as_published": "25, 21, 17",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#ML-DSA-JARs",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "roadmap",
+      "source_index": 0,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0072",
+      "capability_id": "crypto-c3b714bdce63",
+      "status": "Planned",
+      "release_date": null,
+      "target": "2027-01-19",
+      "target_precision": "Day",
+      "algorithm": "PBMAC1",
+      "action": "Add PKCS12 KeyStore Support for PBMAC1",
+      "lts_majors_explicit": [
+        17,
+        21
+      ],
+      "first_releases_explicit": {},
+      "other_releases": [],
+      "all_releases_as_published": "21, 17",
+      "effective_condition": "Algorithm support and its default selection are different; verify keystore configuration and release notes.",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#PKCS12_PBMAC1",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "roadmap",
+      "source_index": 2,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0073",
+      "capability_id": "crypto-6db211609edc",
+      "status": "Planned",
+      "release_date": null,
+      "target": "2027-01-19",
+      "target_precision": "Day",
+      "algorithm": "Post-Quantum Hybrid Key Exchange",
+      "action": "Add Post-Quantum Hybrid Key Exchange for TLS 1.3",
+      "lts_majors_explicit": [
+        17,
+        21
+      ],
+      "first_releases_explicit": {},
+      "other_releases": [],
+      "all_releases_as_published": "21, 17",
+      "effective_condition": "Capability availability is not proof that a connection negotiates PQC; inspect configuration and technical guidance.",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#PQ_TLS1.3",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "roadmap",
+      "source_index": 1,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0074",
+      "capability_id": "crypto-93aefdfd3b38",
+      "status": "Planned",
+      "release_date": null,
+      "target": "2027-04-20",
+      "target_precision": "Day",
+      "algorithm": "Diffie-Hellman",
+      "action": "Remove ffdhe6144 and ffdhe8192 from Default List of TLS Named Groups",
+      "lts_majors_explicit": [
+        8,
+        11,
+        17,
+        21,
+        25
+      ],
+      "first_releases_explicit": {},
+      "other_releases": [],
+      "all_releases_as_published": "25, 21, 17, 11, 8",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#remove-ffdhe",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "roadmap",
+      "source_index": 3,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0075",
+      "capability_id": "crypto-ed1ef46b0572",
+      "status": "Planned",
+      "release_date": null,
+      "target": "2027-H2",
+      "target_precision": "Half-year",
+      "algorithm": "ML-DSA",
+      "action": "Add Support for ML-DSA Digital Signature Algorithm",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {},
+      "other_releases": [],
+      "all_releases_as_published": "11, 8",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#Add_ML-DSA",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "roadmap",
+      "source_index": 5,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0076",
+      "capability_id": "crypto-2b0ca10fe436",
+      "status": "Planned",
+      "release_date": null,
+      "target": "2027-H2",
+      "target_precision": "Half-year",
+      "algorithm": "ML-KEM",
+      "action": "Add support for ML-KEM Key Encapsulation Mechanism",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {},
+      "other_releases": [],
+      "all_releases_as_published": "11, 8",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#Add_ML-KEM",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "roadmap",
+      "source_index": 4,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0077",
+      "capability_id": "crypto-c3b714bdce63",
+      "status": "Planned",
+      "release_date": null,
+      "target": "2027-H2",
+      "target_precision": "Half-year",
+      "algorithm": "PBMAC1",
+      "action": "Add PKCS12 KeyStore Support for PBMAC1",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {},
+      "other_releases": [],
+      "all_releases_as_published": "11, 8",
+      "effective_condition": "Algorithm support and its default selection are different; verify keystore configuration and release notes.",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#PKCS12_PBMAC1",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "roadmap",
+      "source_index": 8,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0078",
+      "capability_id": "crypto-6db211609edc",
+      "status": "Planned",
+      "release_date": null,
+      "target": "2027-H2",
+      "target_precision": "Half-year",
+      "algorithm": "Post-Quantum Hybrid Key Exchange",
+      "action": "Add Post-Quantum Hybrid Key Exchange for TLS 1.3",
+      "lts_majors_explicit": [
+        8,
+        11
+      ],
+      "first_releases_explicit": {},
+      "other_releases": [],
+      "all_releases_as_published": "11, 8",
+      "effective_condition": "Capability availability is not proof that a connection negotiates PQC; inspect configuration and technical guidance.",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#PQ_TLS1.3",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "roadmap",
+      "source_index": 7,
+      "notes": ""
+    },
+    {
+      "record_id": "CR-0079",
+      "capability_id": "crypto-e3b993fc09e6",
+      "status": "Planned",
+      "release_date": null,
+      "target": "2027-H2",
+      "target_precision": "Half-year",
+      "algorithm": "X25519, X448",
+      "action": "Add support for Key Agreement with Curve25519 and Curve448",
+      "lts_majors_explicit": [
+        8
+      ],
+      "first_releases_explicit": {},
+      "other_releases": [],
+      "all_releases_as_published": "8",
+      "effective_condition": "",
+      "technical_url": "https://www.java.com/en/configure_crypto.html#Curve25519",
+      "release_note_evidence": [],
+      "source_url": "https://www.java.com/en/jre-jdk-cryptoroadmap.html",
+      "source_array": "roadmap",
+      "source_index": 6,
+      "notes": ""
+    }
+  ]
+}

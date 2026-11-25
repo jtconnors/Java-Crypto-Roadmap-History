@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html>
+<html lang="en"><!--  -->
+<!-- layoutAssetName = JCOM Layout -->
+<!-- layoutAssetId = 4002361163402 -->
+<!-- start : common/global/components/framework/head -->
+<head>
+<!-- start : jcom/common/global/components/head -->
+<title>Oracle JRE and JDK Cryptographic Roadmap </title>
+<meta name="Title" content="Oracle JRE and JDK Cryptographic Roadmap ">
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="siteid" content="en">
+<meta name="countryid" content="US">
+<meta name="robots" content="index, follow">
+<meta name="country" content="United States">
+<meta name="region" content="americas">
+<meta name="Language" content="en">
+<meta name="Updated Date" content="">
+<script type="text/javascript">
+var pageData = pageData || {};
+//page info
+pageData.pageInfo = pageData.pageInfo || {};
+pageData.pageInfo.language = "en";
+pageData.pageInfo.country = "United States";
+pageData.pageInfo.region = "americas";
+pageData.pageInfo.pageTitle = "Oracle JRE and JDK Cryptographic Roadmap ";
+pageData.pageInfo.description = "";
+pageData.pageInfo.keywords = "";
+pageData.pageInfo.siteId = "en";
+pageData.pageInfo.countryId = "US";
+pageData.pageInfo.updatedDate = "";
+</script>
+<!-- start : jcom/common/global/components/seo-taxonomy-meta-data-->
+<script type="text/javascript">
+var pageData = pageData || {};
+//taxonmy
+pageData.taxonomy = pageData.taxonomy || {};
+pageData.taxonomy.productServices = [];
+pageData.taxonomy.industry = [];
+pageData.taxonomy.region = [];
+pageData.taxonomy.contentType = [];
+pageData.taxonomy.buyersJourney = [];
+pageData.taxonomy.revenue = [];
+pageData.taxonomy.title = [];
+pageData.taxonomy.audience = [];
+pageData.taxonomy.persona = [];
+</script>
+<!-- end : jcom/common/global/components/seo-taxonomy-meta-data-->
+<!-- start : jcom/common/global/components/social-media-meta-tags -->
+<!-- end : jcom/common/global/components/social-media-meta-tags -->
+<!-- start : jcom/common/global/components/seo-hreflang-meta-tags --><!-- end : jcom/common/global/components/seo-hreflang-meta-tags -->
+<!-- trustarc -->
+<script async="" type="text/javascript" crossorigin="crossOrigin" src="//consent.trustarc.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&language=en"></script>
+<!-- end : jcom/common/global/components/head -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- start : jcom/common/global/components/framework/layoutAssetHeadInfo -->
+<!-- Container/Display Start -->
+<!-- BEGIN: RawHTML/Displaying -->
+<!-- EVALUATING LINKS --><link rel="preload" href="/jcom/assets/jcom_oldcss.css" as="style">
+<link rel="preload" href="/jcom/assets/jcom_screen.css" as="style">
+<link charset="utf-8" href="/jcom/assets/jcom_oldcss.css" media="screen" rel="stylesheet" type="text/css" />
+<link charset="utf-8" href="/jcom/assets/jcom_screen.css" media="screen" rel="stylesheet" type="text/css" />
+<link charset="utf-8" href="/jcom/assets/jcom_print.css" media="print" rel="stylesheet" type="text/css" />
+<link data-wscss="" href="https://www.oracle.com/asset/web/css/redwood-base.css" rel="stylesheet" />
+<link data-wscss="" href="https://www.oracle.com/asset/web/css/redwood-styles.css" rel="stylesheet" />
+<link href="/jcom/assets/jcom_redwood.css" rel="stylesheet" type="text/css" />
+<link href="/jcom/assets/jcom_simplepage.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="/jcom/assets/js/theme.min.js"></script>
+<script type="text/javascript">
+try{oracle.truste.api.getConsentDecision().consentDecision;oracle.truste.api.getConsentDecision().source}catch(err){var oracle=oracle||{};oracle.truste={};oracle.truste.api={};(function(){var trusteStorageItemName="truste.eu.cookie.notice_preferences";this.getCookieName=function(){return"notice_preferences"};this.getStorageItemName=function(){return trusteStorageItemName}}).apply(oracle.truste);(function(){var trusteCommon=oracle.truste;function getCookie(cookieKey){for(var name=cookieKey+"=",cookieArray=document.cookie.split(";"),i=0;i<cookieArray.length;i++){for(var c=cookieArray[i];" "==c.charAt(0);)c=c.substring(1);if(0==c.indexOf(name))return c.substring(name.length,c.length)}return null}function getLocalStorageItem(storageKey){return"undefined"!=typeof Storage?localStorage.getItem(storageKey):null}function getTRUSTeLocalStorageValue(storageKey){var value=getLocalStorageItem(storageKey);if(null!=value){return JSON.parse(value).value}return null}this.getConsentCode=function(){var value=getTRUSTeLocalStorageValue(trusteCommon.getStorageItemName())||getCookie(trusteCommon.getCookieName());return null==value?-1:parseInt(value)+1};this.getConsentDecision=function(){var value=this.getConsentCode();if(-1==value){var text='{"consentDecision": 0, "source": "implied"}';return JSON.parse(text)}var text='{"consentDecision": '+parseInt(value)+', "source": "asserted"}';return JSON.parse(text)}}).apply(oracle.truste.api)}
+if(oracle.truste.api.getConsentDecision().consentDecision != 1) {
+var iTag = document.createElement("script");
+if(location.host == "www.java.com" || location.host == "java.com")
+iScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/java/odc.js?_ora.context=analytics:production";
+else
+iScript = "//c.oracleinfinity.io/acs/account/wh3g12c3gg/js/java/odc.js?_ora.context=analytics:development";
+iTag.src = iScript;
+iTag.async = true;
+iTag.type = 'text/javascript';
+document.head.appendChild(iTag);
+}
+</script>
+<!-- END: RawHTML/Display -->
+<!-- Container/Display end -->
+<!-- end : jcom/common/global/components/framework/layoutAssetHeadInfo -->
+</head><!-- end : common/global/components/framework/head -->
+<body class="f20 f20v0 ready">
+<div class="f11w1">
+<!-- start : common/global/components/framework/layoutAssetStartBodyInfo -->
+<!-- Dispatcher:null -->
+<!-- BEGIN: RawHTML/Displaying -->
+<!-- EVALUATING LINKS --><!-- Redwood Header -->
+<header class="scs-slot" id="header-slot">
+<div class="scs-row">
+<div class="scs-col" style="width:100%">
+<div class="scs-component-container" id="b4df2ec4-758b-4dce-a75d-99b239d66c61">
+<div class="scs-component-bounding-box">
+<div>
+<div class="headerBasic-default-style scs-component scs-custom-component" style="margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px">
+<div class="scs-component-content" style="width:100%">
+<div class="scs-custom-component-wrapper" data-bind="attr: {'style': encodeCSS(computedStyle)}">
+<div id="b4df2ec4-758b-4dce-a75d-99b239d66c61customComponentDiv">
+<div id="b4df2ec4-758b-4dce-a75d-99b239d66c61_content_undefined">
+<header>
+<nav class="navbar navbar-expand-xl justify-content-between">
+<div class="container-fluid">
+<div id="navbar-logo"><a title="java.com" href="/en/" ></a></div>
+<input type="checkbox" id="menu">
+<label class="navbar-toggler collapsed" for="menu"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+</svg> </label>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="mr-auto navbar-nav">
+<li class="nav-item"><a aria-label="Developer Resources" class="nav-link " href="https://dev.java/" title="Developer Resources">Developer Resources</a></li>
+<li class="nav-item"><a aria-label="Enterprise Resources" class="nav-link " href="https://www.oracle.com/java/" title="Enterprise Resources">Enterprise Resources</a></li>
+<li class="nav-item"><a aria-label="Java for Desktop Apps" class="nav-link " href="/en/download/" title="Java for Desktop Apps">Java for Desktop Apps</a></li>
+</ul>
+<div class="container-fluid" id="search-form">
+<div class="row" id="searchbox">
+<div class="ais-SearchBox">
+<form accept-charset="utf-8" action="https://search.oracle.com/java" class="ais-SearchBox-form" data-bind="attr: { action: searchURL() }" method="get" name="searchForm" onsubmit="if((document.searchForm.Ntt.value == document.searchForm.Ntt.defaultValue) || (document.searchForm.Ntt.value == '')){return false;}"><input data-bind="value: filter()" name="langs" type="hidden" value="english" /> <input autocomplete="off" class="ais-SearchBox-input" data-bind="attr: { title: srchDefault, value: srchDefault }" maxlength="55" name="q" onblur="if( this.value=='' ) this.value=this.defaultValue;" onfocus="if( this.value==this.defaultValue ) this.value='';" size="20" title="Search" type="text" value="Search" /><button class="ais-SearchBox-submit" id="searchbtn" title="Submit the search query." type="submit"></button><button class="ais-SearchBox-reset" hidden="" title="Clear the search query." type="reset"></button></form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- END: RawHTML/Display -->
+<!-- end : jcom/common/global/components/framework/layoutAssetStartBodyInfo -->
+<!-- Redwood Body -->
+<div class="f20w1">
+<div class="cpad f22 f22v0" data-ocomid="f22" data-trackas="f22">
+<div class="cwidth f22w1 one-col-wrapper">
+<div class="f22w2 main-content one-col">
+<div>
+<div class="jvc0w2">
+<div class="jvc0w2 scs-responsive scs-slot" id="slot-2-10">
+<div class="scs-row">
+<div class="scs-col" style="width:100%">
+<div class="scs-component-container" id="c919abf0-48e9-4752-8ec3-08ffaf8791b7">
+<div class="scs-component-bounding-box">
+<div>
+<div class="scs-component scs-component-default-style scs-custom-component" style="margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px">
+<div class="scs-component-content" style="width:100%">
+<div class="scs-custom-component-wrapper">
+<div class="jvc0v0" data-asset-operation="view:CORE4CE473D02E2A4FEBBC32B7C22030288D" id="c919abf0-48e9-4752-8ec3-08ffaf8791b7customComponentDiv">
+<!-- F22v0 -->
+<div class="cpad f22 f22-child f22v0" data-ocomid="f22" data-trackas="f22">
+<div class="cwidth f22w1">
+<!-- Nav Widgets -->
+<div class="f22w2 main-content">
+<div class="clearfix jvc0w1">
+<div class="jvc0w2" data-hydrate="">
+<!-- Body -->
+<!-- EVALUATING LINKS --><script type="text/javascript" src="/jcom/assets/cryptrmap.js"></script>
+<h1>Oracle JRE and JDK Cryptographic Roadmap</h1>
+<p>Last updated on <span id="lastUpdate"></span></p>
+<p>The following information represents Oracle's plans for
+changes to the security algorithms and associated
+policies/settings in the Oracle Java Runtime Environment (JRE)
+and Java SE Development Kit (JDK).</p>
+<p>For information on the overall Oracle strategy, see <a href="https://blogs.oracle.com/java/post-quantum-cryptography-in-long-term-support-jdk-releases">Post-Quantum Cryptography in Long-Term Support JDK Releases</a>.</p>
+<p>The information on this site is intended for releases currently supported by Oracle (as described in the <a href="http://www.oracle.com/technetwork/java/eol-135779.html">Java SE Support Roadmap</a>) and Early Access releases when applicable. The Oracle JRE/JDK have a pluggable security architecture,
+which allows for the use of third-party security providers.
+The information provided in this roadmap only applies to the
+security providers shipped by Oracle in the Oracle JRE and
+JDK. It does not apply to third-party security providers. </p>
+<p>These notices cover changes on update releases. New feature releases may implement new security algorithms or use different default settings than previously released versions. Information on changes delivered with new feature releases, including changes in cryptography, can be found on the <a href="https://www.oracle.com/technetwork/java/javase/jdk-relnotes-index-2162236.html" target="_blank">release notes</a>. However, for some notable exceptions, this site may include notices about changes in a future release or even early access versions.</p>
+<h2>Disclaimer</h2>
+<p>The information below is a summary of Oracle’s current plans.
+It is intended to provide general information to the public.
+This roadmap can change with little or no warning, though
+Oracle will attempt to provide advance notice about these
+changes. In some instances, it is possible that required
+changes will be published only after a given JRE/JDK release.<br>
+</p>
+<div class="future">
+<h2>Planned changes <sup>(1)</sup></h2>
+<p>The changes announced on this roadmap reflect Oracle's
+minimum recommendations for production environments. Oracle
+encourages users to proactively test/enable these changes
+before they are enabled by default in the JRE and JDK. Note
+that the chart below links to technical instructions on how
+to test or revert the changes in the security algorithms and
+associated policies/settings in the JRE and JDK.</p>
+<table id="roadmapTable" class="lined">
+<tbody>
+<tr>
+<th style="width:90px">Targeted Date<sup>(2)</sup></th>
+<th>Targeted Release(s)<br>
+</th>
+<th>Algorithm/Protocol</th>
+<th style="min-width:150px">Action</th>
+<th>Additional Information</th>
+<th style="min-width:130px">Change Log</th>
+</tr>
+</tbody>
+</table>
+<p><a name="footnotes"></a> </p>
+<ol>
+<li>Information subject to change.</li>
+<li>Dates will be updated, either more precision added,
+delayed, or brought in, as more details become available.
+Q1, Q2, Q3 and Q4 refer to the calendar quarters. H1 and
+H2 refer to the first or second half of the year.</li>
+</ol>
+</div>
+<hr class="ltgrey">
+<div class="past">
+<h2>Released Changes</h2>
+<table id="releasedChangesTable" class="lined">
+<tbody>
+<tr>
+<th style="width:90px">Release Date</th>
+<th>Release(s) Affected</th>
+<th>Algorithm/Protocol</th>
+<th style="min-width:150px">Action</th>
+<th>Additional Information</th>
+<th style="min-width:130px">Change Log</th>
+</tr>
+</tbody>
+</table>
+<p>As of 2017-03-06 the term SSL/TLS, where it was used to
+refer to Secure Transport, has been changed to TLS.<br>
+</p>
+<h3>More details on releases changes</h3>
+<p>For further details on changes, please refer to the <a
+href="http://www.oracle.com/technetwork/java/javase/jdk-relnotes-index-2162236.html">release
+notes</a> for the affected releases.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- /F22v0 -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Additional Body Tags -->
+<script type="text/javascript"> makeTable(); makeCompletedTable(); </script> <!-- Begin SiteCatalyst code version: G.5. --> <script language="JavaScript"> <!-- var s_channel="javac:Crypto"; var s_pageName="javac:Crypto:Roadmap"; var s_prop19="en_javac:Crypto:Roadmap"; //--></script <!-- End SiteCatalyst code version: G.5. --> <!-- start : common/global/components/framework/layoutAssetEndBodyInfo -->
+<!-- Dispatcher:null -->
+<!-- BEGIN: RawHTML/Displaying -->
+<!-- EVALUATING LINKS -->    <!-- Redwood Footer -->
+<footer id="footer-slot" class="scs-slot">
+<div class="scs-row">
+<div class="scs-col" style="width: 100%;">
+<div id="a1aa471c-33cd-4550-a612-79ff2091d9e7" class="scs-component-container">
+<div class="scs-component-bounding-box">
+<div>
+<div class="scs-custom-component scs-component scs-component-default-style" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;">
+<div class="scs-component-content" style="width:100%;">
+<div class="scs-custom-component-wrapper" style="">
+<div id="a1aa471c-33cd-4550-a612-79ff2091d9e7customComponentDiv" data-asset-operation="view:CORE1CE64AD7F2E944B68F223DEBB0AF616A">
+<!-- /U10v6 -->
+<div id="u10" class="u10 u10v0" data-trackas="footer">
+<div class="u10w1">
+<div class="u10w5">
+<div class="u10-links u10-min">
+<div>
+<a href=" https://www.oracle.com/legal/copyright.html" data-lbl="copyright">&copy; 2026 Oracle</a>
+</div>
+<p>
+<script src="/jcom/assets/footer.min.js"></script>
+<a href="/en/selectlanguage.jsp" title="Select Language">Select Language</a>
+<a href="/en/download/support.jsp" title="Support">Support</a>
+<a href="https://www.oracle.com/html/privacy.html" title="Privacy">Privacy</a>
+<span id="teconsent"></span>
+<a href="https://www.oracle.com/html/terms.html" title="Terms of Use">Terms of Use</a>
+<a href="https://www.oracle.com/html/3party.html" title="Trademarks">Trademarks</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- /U10v6 -->
+</div>
+</div>
+</div>
+<div></div>
+</div>
+<div class="scs-hidden">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script type="text/javascript" src="/jcom/assets/remote.js"></script>
+<!-- END: RawHTML/Display -->
+<!-- end : jcom/common/global/components/framework/layoutAssetEndBodyInfo -->
+</body>
+</html>
+
+

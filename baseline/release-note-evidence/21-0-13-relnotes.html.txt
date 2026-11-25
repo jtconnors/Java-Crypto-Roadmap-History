@@ -1,0 +1,721 @@
+
+<!DOCTYPE html>
+<html lang="en-US" class="no-js"><head>
+<title>Java™ SE Development Kit 21, 21.0.13 Release Notes</title>
+<meta name="Title" content="Java™ SE Development Kit 21, 21.0.13 Release Notes">
+<meta name="Description" content="Release Notes for the Java SE Development Kit 21, 21.0.13 release.">
+<meta name="Keywords" content="Java™ SE Development Kit 21, 21.0.13 Release Notes">
+<!-- Container/Display Start -->
+<!-- _Raw-Text -->
+<!-- css / js files start -->
+<script>
+!function(){
+var d=document.documentElement;d.className=d.className.replace(/no-js/,'js');
+if(document.location.href.indexOf('betamode=') > -1) document.write('<script src="https://www.oracle.com/asset/web/js/ocom-betamode.js"><\/script>');
+}();
+</script>
+<link data-wscss href="/asset/web/css/ocom-v1-base.css" rel="stylesheet">
+<link data-wscss href="/asset/web/css/ocom-v1-styles.css" rel="preload" as="style" onload="this.rel='stylesheet'" onerror="this.rel='stylesheet'">
+<noscript>
+<link href="/asset/web/css/ocom-v1-styles.css" rel="stylesheet">
+</noscript>
+<link data-wsjs data-reqjq href="/asset/web/js/ocom-v1-base.js" rel="preload" as="script">
+<link data-wsjs data-reqjq href="/asset/web/js/ocom-v1-lib.js" rel="preload" as="script">
+<script data-wsjs src="/asset/web/js/jquery-min.js" async onload="$('head link[data-reqjq][rel=preload]').each(function(){var a = document.createElement('script');a.async=false;a.src=$(this).attr('href');this.parentNode.insertBefore(a, this);});$(function(){$('script[data-reqjq][data-src]').each(function(){this.async=true;this.src=$(this).data('src');});});"></script>
+<!-- end css / js files start -->
+<!-- / _Raw-Text -->
+<!-- Container/Display end -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="resgen" content="No">
+<meta name="siteid" content="us">
+<meta name="countryid" content="US">
+<meta name="robots" content="index, follow">
+<meta name="country" content="United States">
+<meta name="Language" content="en">
+<meta name="Updated Date" content="2018-04-19T19:17:32Z">
+<script type="text/javascript">
+var pageData = pageData || {};
+//page info
+pageData.pageInfo = pageData.pageInfo || {};
+pageData.pageInfo.language = "en";
+pageData.pageInfo.country = "United States";
+pageData.pageInfo.pageTitle = "Java™ SE Development Kit 21, 21.0.13 Release Notes";
+pageData.pageInfo.description = "Release Notes for the Java SE Development Kit 21, 21.0.13 release.";
+pageData.pageInfo.keywords = "Java™ SE Development Kit 21, 21.0.13 Release Notes";
+pageData.pageInfo.siteId = "us";
+pageData.pageInfo.countryId = "US";
+pageData.pageInfo.updatedDate = "2018-04-19T19:17:32Z";
+</script>
+<!-- start : ocom/common/global/components/seo-taxonomy-meta-data-->
+<script type="text/javascript">
+var pageData = pageData || {};
+//taxonmy
+pageData.taxonomy = pageData.taxonomy || {};
+pageData.taxonomy.productServices = [];
+pageData.taxonomy.industry = [];
+pageData.taxonomy.region = [];
+pageData.taxonomy.contentType = [];
+pageData.taxonomy.buyersJourney = [];
+pageData.taxonomy.revenue = [];
+pageData.taxonomy.title = [];
+pageData.taxonomy.audience = [];
+pageData.taxonomy.persona = [];
+</script>
+<!-- end : ocom/common/global/components/seo-taxonomy-meta-data-->
+<!-- start : ocom/common/global/components/social-media-meta-tags -->
+<!-- end : ocom/common/global/components/social-media-meta-tags -->
+<!-- start : ocom/common/global/components/seo-hreflang-meta-tags --><link rel="canonical" href="https://www.oracle.com/java/technologies/javase/21-0-13-relnotes.html" />
+<link rel="alternate" hreflang="en-US" href="https://www.oracle.com/java/technologies/javase/21-0-13-relnotes.html" />
+<!-- end : ocom/common/global/components/seo-hreflang-meta-tags -->
+<!-- Container/Display Start -->
+<!-- _Raw-Text -->
+<!-- www-us HeadAdminContainer -->
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-32.png" sizes="32x32">
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-128.png" sizes="128x128">
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-180.png" sizes="180x180">
+<meta name="msapplication-TileColor" content="#fcfbfa"/>
+<meta name="msapplication-square70x70logo" content="favicon-128.png"/>
+<meta name="msapplication-square150x150logo" content="favicon-270.png"/>
+<meta name="msapplication-TileImage" content="favicon-270.png"/>
+<meta name="msapplication-config" content="none"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<script async="async" type="text/javascript" src='//consent.truste.com/notice?domain=oracle.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&cdn=1&pcookie' crossorigin></script>
+<style>
+#oReactiveChatContainer1 { display:none;}
+</style>
+<!-- Truste for RU -->
+<script type="text/javascript">
+if (location.pathname.indexOf("/ru/") == 0){
+document.write('\x3Cscript async="async" src=//consent.truste.com/notice?domain=oracleru.com&c=teconsent&js=bb&noticeType=bb&text=true&gtm=1&cdn=1&pcookie crossorigin="">\x3C/script>');
+}
+</script>
+<!--Tealium embed code -->
+<script src="https://tms.oracle.com/main/prod/utag.sync.js"></script>
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+(function(a,b,c,d){
+if(location.href.indexOf("tealium=dev") == -1) {
+a='https://tms.oracle.com/main/prod/utag.js';
+} else {
+a='https://tms.oracle.com/main/dev/utag.js';
+}
+b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+</script>
+<!--End-->
+<!-- / _Raw-Text -->
+<!-- Container/Display end -->
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="DXNLE-YBWWY-AR74T-WMD99-77VRA",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"DXNLE-YBWWY-AR74T-WMD99-77VRA";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="iyjwmwaxhfaem2yhf4tq-f-4c15e3b95-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"82485","ak.ai":parseInt("604074",10),"ak.ol":"0","ak.cr":10,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"d6da9de6","ak.r":47386,"ak.a2":n,"ak.m":"dscx","ak.n":"essl","ak.cport":60163,"ak.gh":"23.195.36.80","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1795632935","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==GwctXaCXlhNMcAYvOfunOPsA/F+fb3gOw06ZtunSAjsoMz781xoIzTcee6c0tzIsvkTyPbEJBveW/7BjXW5Sd8kJ3uQ0og1yLkBoXo8PL5QKKfyFjHWcUqQz+wZnzAaLoX2qMzIGB8yN5g8aPXocQeKmbMNNB4IFPf3nWc3OxWXEXaprdDG9xKhBtfBNWsCgN4zaKza5nbTOFq3Mv/QzNf6LDCJMEmbHR5aXuetjeUEWpa/+4lm5GnSYfXpNyALiZQrYkG7rpZK/vXSPjDN0FmBSkXFrRROLoOSNsSapf1b8ZQcGPIblNQnL3dt8WR7HfFWr1hAx5+/YqaKXVuJqYQAcHf9+OMDjg19IVE0gPUhI+kyhbmvgkpKXo79pv3kL2LepTAAfJKgiGTiwTPfjPb9wIw/cRMUlX0xGCf7FVMs=","ak.pv":"549","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body class="f11 f11v6">
+<div class="f11w1">
+<!-- start Common/Header -->
+<!-- Dispatcher:null default -->
+<!-- widgetType: _Raw-Text -->
+<!-- SUBTYPETEMPLATE: _Raw-Text/Display -->
+<!-- BEGIN: oWidget_C/_Raw-Text/Display replaceOCOM: null -->
+<!-- U38v0 -->
+<header id="u38" class="u38 u38v0" data-trackas="header" data-ocomid="u38">
+<!-- Skip Links -->
+<div id="u38skip2">
+<ul>
+<li><a id="u38skip2c" href="#maincontent">Skip to content</a></li>
+<li><a id="u38acc" href="https://www.oracle.com/corporate/accessibility/">Accessibility Policy</a></li>
+</ul>
+</div>
+<div class="u38w1" id="u38w1">
+<!-- Left Section: Hamburger + Logo -->
+<div class="u38brand" id="u38brand">
+<!-- Menu Trigger Button (Hamburger) -->
+<nav aria-label="Main Menu">
+<a id="u38trigger"
+href="/u38-global-menu/"
+data-trackas="menu"
+data-trackas-noexpand
+role="button"
+aria-controls="u38panels"
+aria-expanded="false"
+aria-haspopup="menu">
+<svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+<path d="M22,4 L2,4" class="p1"></path>
+<path d="M2,12 L22,12" class="p2"></path>
+<path d="M2,20 L22,20" class="p3"></path>
+<path d="M0,12 L24,12" class="p4"></path>
+<path d="M0,12 L24,12" class="p5"></path>
+</svg>
+<span class="u38visually-hidden">Menu</span>
+</a>
+</nav>
+<!-- Oracle Logo (136x18 per Figma) - visible on tablet/desktop -->
+<a id="u38logolink" href="https://www.oracle.com/" data-lbl="logo" aria-label="Oracle Home">
+<svg class="u38-oicn" width="136" height="18" viewBox="0 0 231 30" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMid">
+<path fill="#C74634" d="M99.61,19.52h15.24l-8.05-13L92,30H85.27l18-28.17a4.29,4.29,0,0,1,7-.05L128.32,30h-6.73l-3.17-5.25H103l-3.36-5.23m69.93,5.23V0.28h-5.72V27.16a2.76,2.76,0,0,0,.85,2,2.89,2.89,0,0,0,2.08.87h26l3.39-5.25H169.54M75,20.38A10,10,0,0,0,75,.28H50V30h5.71V5.54H74.65a4.81,4.81,0,0,1,0,9.62H58.54L75.6,30h8.29L72.43,20.38H75M14.88,30H32.15a14.86,14.86,0,0,0,0-29.71H14.88a14.86,14.86,0,1,0,0,29.71m16.88-5.23H15.26a9.62,9.62,0,0,1,0-19.23h16.5a9.62,9.62,0,1,1,0,19.23M140.25,30h17.63l3.34-5.23H140.64a9.62,9.62,0,1,1,0-19.23h16.75l3.38-5.25H140.25a14.86,14.86,0,1,0,0,29.71m69.87-5.23a9.62,9.62,0,0,1-9.26-7h24.42l3.36-5.24H200.86a9.61,9.61,0,0,1,9.26-7h16.76l3.35-5.25h-20.5a14.86,14.86,0,0,0,0,29.71h17.63l3.35-5.23h-20.6" transform="translate(-0.02 0)"/>
+</svg>
+<!-- Small Oracle Logo (32x21 for small tablet 600-759px) - from su01 -->
+<svg class="u38-oicn-small" width="32" height="21" viewBox="0 0 32 21" xmlns="http://www.w3.org/2000/svg">
+<path fill="#C74634" d="M9.9,20.1c-5.5,0-9.9-4.4-9.9-9.9c0-5.5,4.4-9.9,9.9-9.9h11.6c5.5,0,9.9,4.4,9.9,9.9c0,5.5-4.4,9.9-9.9,9.9H9.9 M21.2,16.6c3.6,0,6.4-2.9,6.4-6.4c0-3.6-2.9-6.4-6.4-6.4h-11c-3.6,0-6.4,2.9-6.4,6.4s2.9,6.4,6.4,6.4H21.2"/>
+</svg>
+</a>
+</div>
+<!-- Center Section: Search Field -->
+<div id="u38nav" data-closetxt="Close menu" data-backtxt="Go back to">
+<!-- Search Form -->
+<form role="search" name="u38searchForm" id="u38searchForm"
+data-contentpaths="/content/Web/Shared/Auto-Suggest Panel Event"
+method="get" action="https://search.oracle.com/results">
+<div class="u38searchfield">
+<!-- Search Icon -->
+<svg class="u38searchfield-icon" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<path d="M15,15l6,6M17,10a7,7,0,1,1-7-7A7,7,0,0,1,17,10Z"/>
+</svg>
+<!-- Search Input -->
+<input id="u38searchinput" name="q" value="" type="text"
+data-autosuggest-url="https://search-api.oracle.com/api/latest/autosuggest"
+placeholder="Search" autocomplete="off"
+aria-autocomplete="both" aria-label="Search Oracle.com"
+role="combobox" aria-expanded="false" aria-haspopup="listbox"
+aria-controls="u38searchresults">
+<!-- Hidden Parameters -->
+<input type="hidden" name="experience" value="site">
+<input type="hidden" name="size" value="10">
+<input type="hidden" name="app" value="ocom">
+<input type="hidden" name="include_questions" value="true">
+<!-- Clear Button -->
+<button type="button" id="u38clear" class="u38searchclear" aria-label="Clear search">
+<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 4L4 12M4 4l8 8" stroke="currentColor" stroke-width="2" fill="none"/>
+</svg>
+</button>
+</div>
+<!-- Close Search Button (visible at 600-759px when search expanded) -->
+<button type="button" id="u38closesearch" class="u38closesearch" aria-label="Close search">
+<svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<path d="M7,7 L17,17M17,7 L7,17" stroke="currentColor" stroke-width="2" fill="none"/>
+</svg>
+</button>
+<!-- Search Results Container -->
+<div id="u38searchresults" class="u38searchresults" role="listbox"
+aria-labelledby="u38searchresultstitle" aria-hidden="true"
+data-pagestitle="SUGGESTED LINKS"
+data-autosuggesttitle="SUGGESTED SEARCHES"
+data-allresultstxt="All results for"
+data-allsearchpath="https://search.oracle.com/results?q=SEARCHTERM&amp;size=10&amp;page=1&amp;tab=all&amp;app=ocom">
+<!-- Quick Links (shown on focus when empty) -->
+<div id="u38quicklinks" class="u38quicklinks" aria-hidden="true">
+<span class="u38searchresultstitle" role="presentation">QUICK LINKS</span>
+<ul role="presentation">
+<li role="option"><a href="https://www.oracle.com/cloud/">Cloud</a></li>
+<li role="option"><a href="https://www.oracle.com/database/">Database</a></li>
+<li role="option"><a href="https://www.oracle.com/java/">Java</a></li>
+<li role="option"><a href="https://www.oracle.com/artificial-intelligence/">AI</a></li>
+</ul>
+</div>
+<!-- Suggested Pages (from API) -->
+<div id="u38pages" aria-hidden="true">
+<span class="u38searchresultstitle" role="presentation">SUGGESTED LINKS</span>
+<ul id="u38pagesul" role="presentation"></ul>
+</div>
+<!-- Suggested Searches (from API) -->
+<div id="u38autocomplete" aria-hidden="true">
+<span class="u38searchresultstitle" role="presentation">SUGGESTED SEARCHES</span>
+<ul id="u38autocompleteul" role="presentation"></ul>
+</div>
+<!-- All Results Link -->
+<div id="u38searchall" aria-hidden="true">
+<ul id="u38searchallul" role="presentation"></ul>
+</div>
+</div>
+<!-- Aria Live Region -->
+<div id="u38searchannounce" class="u38visually-hidden" aria-live="polite" aria-atomic="true"></div>
+</form>
+<!-- Panel Container (populated by JS from external content) -->
+<div id="u38panels" data-trackas="menu" data-trackas-noexpand class="u38panels" aria-hidden="true">
+<!-- Panels will be built dynamically from menu content file -->
+</div>
+</div>
+<!-- Right Section: Tools (Icons only per Figma) -->
+<div class="u38tools" id="u38tools">
+<!-- Search Icon (24x24) - visible at 600-759px only, expands search input -->
+<button id="u38searchbtn" type="button" class="u38toolbtn u38searchbtn" aria-label="Search" aria-expanded="false">
+<svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<path d="M15,15l6,6M17,10a7,7,0,1,1-7-7A7,7,0,0,1,17,10Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+</svg>
+</button>
+<!-- Country Selector (20x20 flag) - uses #ac-flag for ACS compatibility -->
+<span id="ac-flag">
+<a class="flag-focus" href="/countries-list.html#countries" data-ajax="true" rel="lightbox" role="button" aria-label="Select country">
+<span class="u38visually-hidden">Country</span>
+<svg class="default-globe" fill="currentColor" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display:block;">
+<path fill="currentColor" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm-1 14l-2.44.001c.547 1.818 1.441 3.17 2.44 3.723zm4.44.001L13 16v3.724c1-.555 1.893-1.906 2.44-3.723zm-8.956 0H5.071a8.041 8.041 0 002.369 2.573 12.277 12.277 0 01-.956-2.573zm12.445 0h-1.413a12.26 12.26 0 01-.956 2.573A8.038 8.038 0 0018.929 16zM6.116 10H4.252A8.014 8.014 0 004 12c0 .69.088 1.361.252 2l1.864.001a17.102 17.102 0 010-4.001zM11 10H8.132A14.962 14.962 0 008 12c0 .693.046 1.363.133 2H11zm8.748 0h-1.864a17.102 17.102 0 010 4.001h1.864a8.05 8.05 0 000-4.001zm-3.88 0H13v4h2.867a14.87 14.87 0 00.13-1.702L16 12c0-.693-.046-1.362-.132-2zM7.44 5.427l-.127.09A8.04 8.04 0 005.07 8h1.414c.24-.94.562-1.808.956-2.574zM11 4.276C10.001 4.83 9.107 6.182 8.56 8H11zm5.56 1.15l.08.161c.358.726.653 1.538.876 2.413h1.414a8.041 8.041 0 00-2.37-2.574zM13 4.276V8h2.44C14.893 6.182 14 4.83 13 4.276z"></path>
+</svg>
+</a>
+</span>
+<!-- User/Account Icon (24x24) -->
+<div class="u38signinw1" data-trackas="header">
+<button id="u38signin" class="u38toolbtn" aria-expanded="false" aria-controls="u38signinmodal" aria-label="Sign in" data-lbl="sign-in">
+<svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<path d="M12,12c2.21,0,4-1.79,4-4s-1.79-4-4-4-4,1.79-4,4,1.79,4,4,4Zm0,2c-2.67,0-8,1.34-8,4v2h16v-2c0-2.66-5.33-4-8-4Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+</svg>
+</button>
+<div id="u38signinmodal" aria-hidden="true">
+<div class="u38signincontent">
+<div class="u38l-out obttns">
+<div>
+<a href="https://www.oracle.com/webapps/redirect/signon?nexturl="
+data-lbl="profile:sign-in-account">Sign in to your Oracle account</a>
+</div>
+<div class="obttn1">
+<a href="https://profile.oracle.com/myprofile/account/create-account.jspx"
+data-lbl="profile:create-account">Create an Oracle account</a>
+</div>
+</div>
+<ul class="u38l-in">
+<li>
+<span class="u38signinlabel">Signed in to Oracle (SSO) as:</span>
+</li>
+<li>
+<a href="https://profile.oracle.com/myprofile/account/secure/update-account.jspx?nexturl=https%3A%2F%2Fwww.oracle.com%2F"
+data-lbl="profile:user-account"
+class="u38profilelink">Oracle account</a>
+</li>
+<li>
+<a href="https://www.oracle.com/corporate/contact/help.html"
+data-lbl="help">Help</a>
+</li>
+<li>
+<a href="https://www.oracle.com/webapps/cloudgate/logout.html?postlogouturl="
+id="u38pfile-sout"
+data-lbl="signout">Sign out</a>
+</li>
+</ul>
+<div class="u38consolelink">
+<a href="https://www.oracle.com/cloud/sign-in.html"
+data-lbl="sign-in-to-cloud">Go to the OCI/Cloud console</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Contact/Chat Icon (24x24) -->
+<a id="u38contact" class="u38toolbtn" href="https://www.oracle.com/corporate/contact/" aria-label="Contact us" data-lbl="contact">
+<svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+<path d="M20,2H4c-1.1,0-2,.9-2,2v18l4-4h14c1.1,0,2-.9,2-2V4c0-1.1-.9-2-2-2Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+</svg>
+</a>
+</div>
+</div>
+<!-- Background Overlay -->
+<div id="u38overlay" aria-hidden="true"></div>
+<!-- Announcement Region for Screen Readers -->
+<div id="u38announce" class="u38visually-hidden" aria-live="polite" aria-atomic="true"></div>
+</header>
+<!-- /U38v0 -->
+<!-- END: oWidget_C/_Raw-Text/Display -->
+<!-- end Common/Header -->
+<!-- U03v5 -->
+<!-- _Raw-Text -->
+<section class="cb83 cb83v2 cpad bgblue" data-trackas="cb83" data-ocomid="cb83">
+<div class="cb83w7 cwidth">
+<div class="cb83w5">
+<div class="obic">
+<img src="/a/tech/img/java-logo-v1.svg " alt="java">
+</div>
+</div>
+<div class="cb83w3">
+<h2>JDK 21.0.13 Release Notes</h2>
+<div class="obttns">
+<div class="obttn1"> <a href="/java/technologies/javase/21u-relnotes.html">Java Development Kit 21 Release Notes</a> </div>
+</div>
+</div>
+</div>
+</section>
+<!-- / _Raw-Text -->
+<!-- _Raw-Text -->
+<section class="cc01 cc01v0 cpad">
+<div class="cc01w1 cwidth">
+<a name="R21_0_13-BPR"></a>
+<h4>Java SE 21.0.13 - Bundled Patch Release (BPR) - Bug Fixes and Updates</h4>
+<p>The following sections summarize changes made in all Java SE 21.0.13 BPR releases. The BPR releases are listed below in date order, most current BPR first. Note that bug fixes in previous BPRs are also included in the current BPR.</p>
+<p> &nbsp;</p>
+<a name="R21_0_13_0_1"></a>
+<h4>Changes in Java SE 21.0.13.0.1</h4>
+<p>The 21.0.13.0.1 BPR is available all users <a href="/java/technologies/javase/octcpu2026withtz2026e.html" target="_blank">here</a>. </p>
+<h4>Bug Fixes </h4> Release date: October 20, 2026<br /> <section class="cc02 cc02v0 cc02alt cpad" data-trackas="cc02" data-ocomid="cc02" data-a11y="true">
+<div class="cc02w1 cwidth">
+<div class="otable" data-ocomid="otable">
+<table title="" summary="This table names changes in Java SE 21.0.13.0.1" class="otable-w2" aria-label="Basic Table Alternating Rows">
+<thead>
+<tr> <th scope="col" width="10%">BugId</th> <th scope="col" width="10%">Category</th> <th scope="col" width="10%">Subcategory</th> <th scope="col">Summary</th> </tr>
+</thead>
+<tbody>
+<tr> <td scope="row"><a href="https://bugs.java.com/bugdatabase/JDK-8392377" target="_blank">JDK-8392377</a></td> <td>core-libs</td> <td>java.time</td> <td>(tz) Update Timezone Data to 2026d</td> </tr>
+<tr> <td scope="row"><a href="https://bugs.java.com/bugdatabase/JDK-8392519" target="_blank">JDK-8392519</a></td> <td>core-libs</td> <td>java.util:i18n</td> <td>Cherry-pick metazone changes from CLDR for tzdata2026d, for JDK update release</td> </tr>
+<tr> <td scope="row"><a href="https://bugs.java.com/bugdatabase/JDK-8392526" target="_blank">JDK-8392526</a></td> <td>core-libs</td> <td>java.util:i18n</td> <td>Cherry-pick BCP 47 time zone changes from CLDR for tzdata2026d, for JDK update releases</td> </tr>
+<tr> <td scope="row"><a href="https://bugs.java.com/bugdatabase/JDK-8393337" target="_blank">JDK-8393337</a></td> <td>core-libs</td> <td>java.time</td> <td>(tz) Update Timezone Data to 2026e</td> </tr>
+<tr> <td scope="row"><a href="https://bugs.java.com/bugdatabase/JDK-8343788" target="_blank">JDK-8343788</a></td> <td>core-libs</td> <td>java.util:i18n</td> <td>Provide means to alter lib/tzmappings entries on Windows</td> </tr>
+<tr> <td scope="row"><a href="https://bugs.java.com/bugdatabase/JDK-8393344" target="_blank">JDK-8393344</a></td> <td>core-libs</td> <td>java.util:i18n</td> <td>Cherry-pick metazone changes from CLDR to support tzdata2026e for JDK update releases</td> </tr>
+<tr> <td scope="row"><a href="https://bugs.openjdk.org/browse/JDK-8392538" target="_blank">JDK-8392538</a></td> <td>core-libs</td> <td>java.util:i18n</td> <td>Align the JDK with Microsoft's new timezone names for British Columbia/Alberta</td> </tr>
+<tr> <td scope="row"><a href="https://bugs.openjdk.org/browse/JDK-8393848" target="_blank">JDK-8393848</a></td> <td>core-libs</td> <td>java.util:i18n</td> <td>Align the JDK with Microsoft's new timezone name for Manitoba</td> </tr>
+</tbody>
+</table> </div> </div> </section>
+<!-- / _Raw-Text -->
+<!-- _Raw-Text -->
+<section class="cc01 cc01v0 cpad">
+<div class="cc01w1 cwidth">
+<h4><a id="R21_0_13" name="R21_0_13"></a>Java&trade; SE Development Kit 21, Update 21.0.13 (JDK 21.0.13)</h4>
+<p>Release date: October 20, 2026</p>
+<p>
+The full version string for this update release is 21.0.13+10 (where "+" means "build").
+The version number is 21.0.13. This JDK conforms to version 21 of the Java SE Specification (<a href="https://jcp.org/en/jsr/detail?id&#x3D;396">JSR 396</a> 2023-09-19).
+</p>
+<p>&nbsp;</p>
+<h4>IANA TZ Data 2026c</h4>
+<p>
+JDK 21.0.13 contains IANA time zone data <a href="https://lists.iana.org/hyperkitty/list/tz-announce@iana.org/thread/NVHSX2PAQIT44U5FCCEVNJJYXQMMTJSA/">2026c</a> which contains the following changes:
+</p>
+<ul class="obullets">
+<li>Alberta moved to permanent -06 on 2026-06-18.</li>
+<li>Morocco moves to permanent +00 on 2026-09-20.</li>
+</ul>
+<p>
+For more information, refer to
+<a href="https://www.oracle.com/java/technologies/tzdata-versions.html">Timezone Data Versions in the JRE Software</a>.
+</p>
+<p>&nbsp;</p>
+<h4>Security Baselines</h4>
+<p>
+The security baselines for the Java Runtime Environment (JRE) at the time of the release of JDK 21.0.13 are
+specified in the following table:
+</p>
+<!--"scope=" attributes needed to pass Oracle 508 accessibility checker -->
+<div class="otable otable-sticky otable-tech" data-ocomid="otable">
+<div class="otable-w1">
+<div class="table-responsive">
+<table title="" summary="This table names security baselines for the Java Runtime Environment at the time of this release" width="50%" cellspacing="0" cellpadding="0" border="2">
+<thead>
+<tr valign="top" align="left">
+<th scope="col"><b>JRE Family Version</b></th>
+<th scope="col"><b>JRE Security Baseline (Full Version String)</b></th>
+</tr>
+</thead>
+<tbody>
+<tr><td>21</td><td>21.0.13+10</td></tr>
+<tr><td>17</td><td>17.0.21+9</td></tr>
+<tr><td>11</td><td>11.0.33+9</td></tr>
+<tr><td>8</td><td>1.8.0_511-b09</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<h4>Keeping the JDK up to Date</h4>
+<p>
+Oracle recommends that the JDK is updated with each Critical Patch Update.
+In order to determine if a release is the latest, the <a href="https://javadl-esd-secure.oracle.com/update/baseline.version">Security Baseline</a> page can
+be used to determine which is the latest version for each release family.
+</p>
+<p>
+Critical patch updates, which contain security vulnerability fixes, are announced one year in advance on
+Critical Patch Updates, Security Alerts and Bulletins.
+It is not recommended that this JDK (version 21.0.13) be used after the next critical patch update scheduled
+for November 17, 2026.
+</p>
+<p>
+Java Management Service, available to all users, can help you find vulnerable Java versions in your systems. <a href="https://www.oracle.com/java/java-se-subscription.html">Java SE Subscribers</a> and customers running in Oracle Cloud can use Java Management Service to update Java Runtimes and to do further security reviews like identifying potentially vulnerable third party libraries used by your Java programs. Existing Java Management Service user <a href="https://cloud.oracle.com/jms/overview">click here</a> to log in to your dashboard. <a href="https://docs.oracle.com/en-us/iaas/jms/index.html">The Java Management Service Documentation</a> provides a list of features available to everyone and those available only to customers. <a href="https://www.oracle.com/java/jms/">Learn more about using Java Management Service</a> to monitor and secure your Java Installations.
+</p>
+<p>&nbsp;</p>
+<h4>Important Oracle JDK 21 License Update starting with JDK 21.0.13</h4>
+<p>JDK 21.0.13 is the first JDK 21 update release made available under the <a href="https://www.oracle.com/downloads/licenses/javase-license1.html">Oracle Technology Network License Agreement for Oracle Java SE</a> (OTN for Java SE). This license is substantially different from the <a href="https://www.java.com/freeuselicense">Oracle No-fee Terms and Conditions</a> (NFTC) used in earlier JDK 21 updates. The OTN for Java SE license permits certain uses, such as personal use and development use, at no cost, but other uses authorized under the NFTC may no longer be available. Please review the terms carefully before using this product. An FAQ is available <a href="https://www.oracle.com/java/technologies/javase/jdk-faqs.html">here</a>.</p>
+<p>A similar licensing change takes effect for JavaFX 21 updates released after September 2026.</p>
+<p>&nbsp;</p>
+<a name="NewFeatures"></a><h4>New Features</h4>
+<p>
+<div class="release-note"><a name="JDK-8347938"></a>
+<div>security-libs/java.security</div>
+<b><a href="#JDK-8347938"><span class="arrow">&#x279c;</span></a>&nbsp;Added Support for the Latest ML-KEM and ML-DSA Private Key Encodings
+</b> (<a HREF="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8347938">JDK-8347938</a>)
+<p></p>
+<p>The JDK now encodes ML-KEM and ML-DSA private keys in PKCS #8 format using the DER-encoded ASN.1 CHOICE formats defined in <a href="https://www.rfc-editor.org/rfc/rfc9935.html#name-private-key-format">Section 6, &quot;Private Key Format&quot;</a> of RFC 9935 and <a href="https://www.rfc-editor.org/rfc/rfc9881.html#name-private-key-format">Section 6, &quot;Private Key Format&quot;</a> of RFC 9881. Two new security properties, <code>jdk.mlkem.pkcs8.encoding</code> and <code>jdk.mldsa.pkcs8.encoding</code>, control the encoding used when generating new keys with a <code>KeyPairGenerator</code> or when translating keys with a <code>KeyFactory</code>. Valid values are <code>seed</code>, <code>expandedKey</code>, and <code>both</code> (case-insensitive). If a system property of the same name is also specified, it supersedes the security property value. All three formats are supported when decoding previously encoded private keys with a <code>KeyFactory</code>.</p>
+<p>The default encoding for newly generated ML-KEM and ML-DSA private keys is <code>seed</code>. Applications that require a particular private-key encoding can configure the relevant security property or equivalent system property.</p>
+</div>
+</p>
+<p>
+<div class="release-note"><a name="JDK-8354305"></a>
+<div>security-libs/java.security</div>
+<b><a href="#JDK-8354305"><span class="arrow">&#x279c;</span></a>&nbsp;SHAKE128-256 and SHAKE256-512 as MessageDigest Algorithms
+</b> (<a HREF="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8354305">JDK-8354305</a>)
+<p></p>
+<p>Two new <code>MessageDigest</code> algorithms, SHAKE128-256 and SHAKE256-512, have been added to the SUN provider. These are fixed-length versions of the SHAKE128 and SHAKE256 Extendable-Output Functions (XOFs) defined in NIST FIPS 202. For more information, see <a href="https://docs.oracle.com/en/java/javase/21/security/oracle-providers.html#GUID-3A80CC46-91E1-4E47-AC51-CB7B782CEA7D">The SUN Provider</a>.</p>
+</div>
+</p>
+<p>&nbsp;</p>
+<h4>Other Notes</h4>
+<p>
+<div class="release-note"><a name="JDK-8382178"></a>
+<div>security-libs/java.security</div>
+<b><a href="#JDK-8382178"><span class="arrow">&#x279c;</span></a>&nbsp;Policy for Distrusting Certain TLS Server Certificates has Changed
+</b> (JDK-8382178 (not public))
+<p></p>
+<p>All TLS server certificates anchored by Symantec, Entrust, and Camerfirma root CAs are now distrusted, regardless of their issuing date. TLS server certificates anchored by Chunghwa root CAs will be completely distrusted as of April 19, 2027. The <code>jdk.security.caDistrustPolicies</code> security property in the <code>java.security</code> configuration file has been updated to reflect these new policies.</p>
+</div>
+</p>
+<p>
+<div class="release-note"><a name="JDK-8386525"></a>
+<div>core-libs/java.net</div>
+<b><a href="#JDK-8386525"><span class="arrow">&#x279c;</span></a>&nbsp;HttpServer Validates the Host Request Header
+</b> (JDK-8386525 (not public))
+<p></p>
+<p>The <code>com.sun.net.http.HttpServer</code> has been updated to validate the <code>Host</code> request header as described in RFC 9112. HTTP/1.1 requests without a <code>Host</code> header or with multiple <code>Host</code> headers are now rejected with an HTTP <code>400 Bad Request</code> response.</p>
+<p>The validation can be disabled by setting the system property <code>sun.net.httpserver.disableHostValidation</code> to <code>true</code>.</p>
+</div>
+</p>
+<p>
+<div class="release-note"><a name="JDK-8383301"></a>
+<div>core-libs/java.sql</div>
+<b><a href="#JDK-8383301"><span class="arrow">&#x279c;</span></a>&nbsp;Clarification of WebRowSet.readXml Exception Behavior
+</b> (JDK-8383301 (not public))
+<p></p>
+<p>The implementation of the <a href="https://docs.oracle.com/en/java/javase/26/docs/api/java.sql.rowset/javax/sql/rowset/WebRowSet.html#readXml(java.io.Reader)">WebRowSet.readXml</a> methods has been updated to consistently report XML parsing and validation failures as SQLException.</p>
+<p><code>WebRowSet.readXml</code> validates XML input against the standard WebRowSet XML schema. Applications should expect malformed XML, schema validation failures, unsupported external entities, and other XML processing errors to be reported as <code>SQLException</code>. Validation can be disabled by setting the system property <code>jdk.sql.rowset.webrowsetValidation</code> to <code>false</code>.</p>
+<p>The existing method signatures remain unchanged. No specification changes are included in this update.</p>
+</div>
+</p>
+<p>
+<div class="release-note"><a name="JDK-8382407"></a>
+<div>core-libs/javax.naming</div>
+<b><a href="#JDK-8382407"><span class="arrow">&#x279c;</span></a>&nbsp;Extend the Scope of com.sun.jndi.ldap.object.trustSerialData System Property to cover RMI URL References Obtained From an LDAP Context
+</b> (JDK-8382407 (not public))
+<p></p>
+<p>The scope of the <code>com.sun.jndi.ldap.object.trustSerialData</code> system property is extended to cover transparent processing of URL RMI References obtained from an LDAP context.</p>
+<p>A URL context factory is a special type of <code>ObjectFactory</code> that will be used to look up an object referred to from a JNDI <code>javax.naming.Reference</code> that does not specify any factory name, but contains a simple reference address in the form of a URL string. When deserialization of Java objects from LDAP is disabled, the JDK built-in implementation of the JNDI/LDAP provider will no longer transparently use any URL context factory when processing <code>Reference</code> objects containing a URL reference whose scheme is <code>rmi</code>.</p>
+<p>To make it possible to have a finer-grain control over which URL schemes should be disabled when processing URL string reference addresses from the built-in JNDI/LDAP provider, a new system property, <code>jdk.jndi.ldap.disabledURLSchemes</code>, is introduced. The value of this property is a comma-separated list of URL schemes that are disabled. The JDK built-in implementation of the JNDI/LDAP provider will no longer transparently use any URL context factory when processing <code>Reference</code> objects containing a URL reference whose scheme corresponds (case insensitively) to one of the schemes in this list of disabled schemes. The default value for that property is &quot;rmi&quot; if <code>trustSerialData</code> is <code>false</code> (the default), and empty if <code>trustSerialData</code> is <code>true</code>. If a custom value for this new property is provided on the Java command line then only schemes listed in that property value are disabled, regardless of the value of <code>trustSerialData</code>.</p>
+<p>If <code>rmi</code> is included in this list (the default when no custom values have been supplied for <code>com.sun.jndi.ldap.object.trustSerialData</code> or <code>jdk.jndi.ldap.disabledURLSchemes</code>), then a <code>javax.naming.Reference</code> object will be returned to the application instead of the object that would have been created by processing the RMI reference and looking up its URL from the context returned by a URL context factory.</p>
+<p>An application that depends on following RMI URLs contained in a <code>Reference</code> obtained from a JNDI/LDAP context may need to process the <code>Reference</code> object explicitly, or provide a custom value for the <code>jdk.jndi.ldap.disabledURLSchemes</code> system property that does not include the <code>rmi</code> scheme.</p>
+<p>An application that wants to prevent transparent processing of other kinds of URL schemes can now do so by supplying a custom value for the <code>jdk.jndi.ldap.disabledURLSchemes</code> system property that also includes them.</p>
+</div>
+</p>
+<p>
+<div class="release-note"><a name="JDK-8325496"></a>
+<div>hotspot/runtime</div>
+<b><a href="#JDK-8325496"><span class="arrow">&#x279c;</span></a>&nbsp;Make <code>TrimNativeHeapInterval</code> a Product Switch
+</b> (<a HREF="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8325496">JDK-8325496</a>)
+<p></p>
+<p>(Only available on Linux with glibc.) <code>TrimNativeHeapInterval</code> has been made an official product switch. It allows the JVM to trim the native heap at periodic intervals.</p>
+</div>
+</p>
+<p>
+<div class="release-note"><a name="JDK-8333867"></a>
+<div>security-libs/java.security</div>
+<b><a href="#JDK-8333867"><span class="arrow">&#x279c;</span></a>&nbsp;SHA3 Performance Improved
+</b> (<a HREF="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8333867">JDK-8333867</a>)
+<p></p>
+<p>The performance of the <code>MessageDigest</code> implementations that belong to the SHA3 family (SHA3-224, SHA3-256, SHA3-384, and SHA3-512) has been improved by 6-27%, depending on digested message length and on the platform used. An additional 30-40% can be experienced on AVX-512 capable platforms due to new intrinsic implementations on that platform.</p>
+</div>
+</p>
+<p>
+<div class="release-note"><a name="JDK-8387123"></a>
+<div>security-libs/java.security</div>
+<b><a href="#JDK-8387123"><span class="arrow">&#x279c;</span></a>&nbsp;LuxTrust Global Root CA Removed
+</b> (<a HREF="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8387123">JDK-8387123</a>)
+<p></p>
+<p>The following root certificate has been removed from the <code>cacerts</code> keystore:</p>
+<pre><code>+ alias name &quot;luxtrustglobalrootca [jdk]&quot;
+
+  Distinguished Name: CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU
+
+</code></pre></div>
+</p>
+<p>
+<div class="release-note"><a name="JDK-8384736"></a>
+<div>tools/jshell</div>
+<b><a href="#JDK-8384736"><span class="arrow">&#x279c;</span></a>&nbsp;New JShell Remote Agent Launch Protocol
+</b> (JDK-8384736 (not public))
+<p></p>
+<p>The way JShell's remote agents are invoked has changed. Existing agents will need to be updated to use the new protocol. See the <a href="https://docs.oracle.com/en/java/javase/21/docs/api/jdk.jshell/jdk/jshell/execution/RemoteExecutionControl.html"><code>jdk.jshell.execution.RemoteExecutionControl</code></a> JavaDoc API documentation for the new protocol.</p>
+</div>
+</p>
+<p>
+<div class="release-note"><a name="JDK-8384654"></a>
+<div>xml/jaxp</div>
+<b><a href="#JDK-8384654"><span class="arrow">&#x279c;</span></a>&nbsp;JAXP Templates Class Deserialization Is Disabled
+</b> (JDK-8384654 (not public))
+<p></p>
+<p>Deserialization of the <code>com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl</code> class is now disabled by default. (This is an internal class that implements the <code>javax.xml.transform.Templates</code> interface.) An application attempting to deserialize an instance of this class will receive <code>UnsupportedOperationException</code>. To re-enable deserialization of this class, set the system property <code>jdk.xml.enableTemplatesImplDeserialization</code> to <code>true</code>. To take effect, this property must be set on the command line, in the <code>jaxp.properties</code> file, or in a user-defined JAXP configuration file. Prior to this change, deserialization was enabled by default, unless the Security Manager was enabled. The state of the Security Manager is no longer considered in determining whether deserialization is enabled.</p>
+</div>
+</p>
+<p>&nbsp;</p>
+<a name="fixes"></a><h4>Fixes</h4>
+<div class="release-note">
+<p>This release contains fixes for security vulnerabilities described in the <a href="https://www.oracle.com/security-alerts/cpuOct2026.html#AppendixJAVA">Oracle Critical Patch Update</a>.</p>
+<a href="#fixes"><span class="arrow">&#x279c;</span></a> Issues fixed in 21.0.13:<br />
+<section class="cc02 cc02v0 cc02alt cpad" data-trackas="cc02" data-ocomid="cc02" data-a11y="true">
+<div class="cc02w1 cwidth">
+<div class="otable" data-ocomid="otable">
+<table title="" summary="This table names changes in JDK 21.0.13" class="otable-w2" aria-label="Basic Table Alternating Rows">
+<thead>
+<tr>
+<th scope="col" width="5%">#</th>
+<th scope="col" width="15%">JBS</th>
+<th scope="col" width="20%">Component/Subcomponent</th>
+<th scope="col">Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8385490">JDK-8385490</a></td><td>client-libs/2d</td><td>Update HarfBuzz to 14.2.0</td></tr>
+<tr><td>2</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8385390">JDK-8385390</a></td><td>client-libs/2d</td><td>Update FreeType to 2.14.3</td></tr>
+<tr><td>3</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8387593">JDK-8387593</a></td><td>client-libs/2d</td><td>Using XOR mode to clear the content leaves some traces in metal</td></tr>
+<tr><td>4</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8384902">JDK-8384902</a></td><td>client-libs/java.awt</td><td>Update GIFlib to 6.1.3</td></tr>
+<tr><td>5</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8384495">JDK-8384495</a></td><td>client-libs/java.awt</td><td>Update Libpng to 1.6.58</td></tr>
+<tr><td>6</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8332020">JDK-8332020</a></td><td>core-libs/java.net</td><td>jwebserver tool prints invalid URL in case of IPv6 address binding</td></tr>
+<tr><td>7</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8377992">JDK-8377992</a></td><td>core-libs/java.nio</td><td>(zipfs) Align ZipFileSystem END header validation with the ZipFile implementation</td></tr>
+<tr><td>8</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8391807">JDK-8391807</a></td><td>core-libs/java.time</td><td>Inconsistent TimeZone Names Displayed across JDK release trains</td></tr>
+<tr><td>9</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8341625">JDK-8341625</a></td><td>core-libs/java.util.jar</td><td>Improve ZipFile validation of the END header</td></tr>
+<tr><td>10</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8381379">JDK-8381379</a></td><td>core-libs/java.util:i18n</td><td>Support std/dstOffset attributes in CLDR&#x27;s metazone definitions</td></tr>
+<tr><td>11</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8390388">JDK-8390388</a></td><td>core-libs/java.util:i18n</td><td>Cherry-pick tz attributes from newer CLDR data for jdk25u and earlier</td></tr>
+<tr><td>12</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8390380">JDK-8390380</a></td><td>core-libs/java.util:i18n</td><td>Cherry-pick metazone changes from CLDR to support tzdata2026c for JDK update releases</td></tr>
+<tr><td>13</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8352020">JDK-8352020</a></td><td>hotspot/compiler</td><td>[CompileFramework] enable compilation for VectorAPI</td></tr>
+<tr><td>14</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8336702">JDK-8336702</a></td><td>hotspot/compiler</td><td>C2 compilation fails with &quot;all memory state should have been processed&quot; assert</td></tr>
+<tr><td>15</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8349721">JDK-8349721</a></td><td>hotspot/compiler</td><td>Add aarch64 intrinsics for ML-KEM</td></tr>
+<tr><td>16</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8351412">JDK-8351412</a></td><td>hotspot/compiler</td><td>Add AVX-512 intrinsics for ML-KEM</td></tr>
+<tr><td>17</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8354926">JDK-8354926</a></td><td>hotspot/compiler</td><td>Remove remnants of debugging in the fix for JDK-8348561 and JDK-8349721</td></tr>
+<tr><td>18</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8351034">JDK-8351034</a></td><td>hotspot/compiler</td><td>Add AVX-512 intrinsics for ML-DSA</td></tr>
+<tr><td>19</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8341527">JDK-8341527</a></td><td>hotspot/compiler</td><td>AVX-512 intrinsic for SHA3</td></tr>
+<tr><td>20</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8348561">JDK-8348561</a></td><td>hotspot/compiler</td><td>Add aarch64 intrinsics for ML-DSA</td></tr>
+<tr><td>21</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8386578">JDK-8386578</a></td><td>hotspot/compiler</td><td>double_keccak stub does not set its return value on x86</td></tr>
+<tr><td>22</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8364106">JDK-8364106</a></td><td>hotspot/runtime</td><td>Include java.runtime.version in thread dump output</td></tr>
+<tr><td>23</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8375125">JDK-8375125</a></td><td>hotspot/runtime</td><td>assert(false) failed: &quot;Attempting to acquire lock NativeHeapTrimmer_lock/nosafepoint out of order with lock ConcurrentHashTableResize_lock/nosafepoint-2 -- possible deadlock&quot; when using native heap trimmer</td></tr>
+<tr><td>24</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8353478">JDK-8353478</a></td><td>performance/libraries</td><td>Update crypto microbenchmarks to cover ML-DSA, ML-KEM, and HSS algorithms</td></tr>
+<tr><td>25</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8340327">JDK-8340327</a></td><td>security-libs/java.security</td><td>A common framework to support public key algorithms with standard parameter sets</td></tr>
+<tr><td>26</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8320192">JDK-8320192</a></td><td>security-libs/java.security</td><td>SHAKE256 does not work correctly if n &gt;&#x3D; 137</td></tr>
+<tr><td>27</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8338587">JDK-8338587</a></td><td>security-libs/java.security</td><td>Internal XOF Methods for SHAKE128 and SHAKE256</td></tr>
+<tr><td>28</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8381771">JDK-8381771</a></td><td>security-libs/java.security</td><td>Add a check for DNS label not to end with a hyphen</td></tr>
+<tr><td>29</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8356051">JDK-8356051</a></td><td>security-libs/java.security</td><td>Update SignatureUtil.java with the new KnownOIDs</td></tr>
+<tr><td>30</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8347606">JDK-8347606</a></td><td>security-libs/java.security</td><td>Optimize Java implementation of ML-DSA </td></tr>
+<tr><td>31</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8298387">JDK-8298387</a></td><td>security-libs/java.security</td><td>Implement JEP 497: Quantum-Resistant Module-Lattice-Based Digital Signature Algorithm</td></tr>
+<tr><td>32</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8345533">JDK-8345533</a></td><td>security-libs/java.security</td><td>Switch ML-DSA implementation to FIPS 204 final</td></tr>
+<tr><td>33</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8367008">JDK-8367008</a></td><td>security-libs/java.security</td><td>Algorithm identifiers for HmacSHA* should always have NULL as params</td></tr>
+<tr><td>34</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8298390">JDK-8298390</a></td><td>security-libs/javax.crypto</td><td>Implement JEP 496: Quantum-Resistant Module-Lattice-Based Key Encapsulation Mechanism</td></tr>
+<tr><td>35</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8347608">JDK-8347608</a></td><td>security-libs/javax.crypto</td><td>Optimize Java implementation of ML-KEM</td></tr>
+<tr><td>36</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8350589">JDK-8350589</a></td><td>security-libs/javax.crypto</td><td>Investigate cleaner implementation of AArch64 ML-DSA intrinsic introduced in JDK-8348561</td></tr>
+<tr><td>37</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8189441">JDK-8189441</a></td><td>security-libs/javax.crypto</td><td>Define algorithm names for keys derived from KeyAgreement</td></tr>
+<tr><td>38</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8374755">JDK-8374755</a></td><td>security-libs/javax.crypto</td><td>ML-KEM&#x27;s 12-bit decompression can be simplified on aarch64</td></tr>
+<tr><td>39</td><td><a href="https://bugs.java.com/bugdatabase/view_bug?bug_id=JDK-8368694">JDK-8368694</a></td><td>security-libs/javax.crypto:pkcs11</td><td>PKCS11-NSS generic keys generated by DH have leading zeroes stripped</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<!-- / _Raw-Text -->
+<!-- U10v0 -->
+<!-- Dispatcher:null default -->
+<!-- widgetType: _Raw-Text -->
+<!-- SUBTYPETEMPLATE: _Raw-Text/Display -->
+<!-- BEGIN: oWidget_C/_Raw-Text/Display replaceOCOM: null -->
+<!-- SU02v1 -->
+<footer
+id="su02"
+class="su02 su02v1"
+data-trackas="footer"
+data-ocomid="su02"
+>
+<div class="su02w1 cwidth">
+<div class="su02w3">
+<ul class="su02legal">
+<li class="su02copy">
+<a data-lbl="copyright" href="/legal/copyright.html">&copy; 2026 Oracle</a>
+</li>
+<li>
+<a data-lbl="privacy" href="/legal/privacy/">Privacy</a>
+<span>/</span>
+<a data-lbl="do-not-sell-my-info" href="/legal/privacy/privacy-choices.html">Do Not Sell My Info</a>
+</li>
+<li>
+<div id="teconsent"></div>
+</li>
+<li>
+<a data-lbl="ad-choices" href="/legal/privacy/privacy-policy/#adchoices">Ad Choices</a>
+</li>
+<li>
+<a data-lbl="careers" href="/corporate/careers/">Careers</a>
+</li>
+<li>
+<a data-lbl="subscribe-to-emails" href="/connect/">Subscribe to emails</a>
+</li>
+<li>
+<a data-lbl="integrity-helpline" href="https://secure.ethicspoint.com/domain/media/en/gui/31053/index.html">Integrity Helpline</a>
+</li>
+<li>
+<a data-lbl="resources" href="/corporate/resources/">Resources</a>
+</li>
+<li>
+<a data-lbl="contact-us" href="/corporate/contact/">Contact Us</a>
+</li>
+</ul>
+<ul class="su02social">
+<li class="scl-facebook">
+<a
+data-lbl="scl-icon:facebook"
+href="https://www.facebook.com/Oracle/"
+target="_blank"
+title="Oracle on Facebook"
+>
+<span>Facebook</span>
+</a>
+</li>
+<li class="scl-twitter">
+<a
+data-lbl="scl-icon:twitter"
+href="https://x.com/oracle"
+target="_blank"
+aria-label="Follow Oracle on X"
+>
+<span>X</span>
+</a>
+</li>
+<li class="scl-linkedin">
+<a
+data-lbl="scl-icon:linkedin"
+href="https://www.linkedin.com/company/oracle/"
+target="_blank"
+aria-label="Oracle on LinkedIn"
+>
+<span>LinkedIn</span>
+</a>
+</li>
+<li class="scl-youtube">
+<a
+data-lbl="scl-icon:youtube"
+href="https://www.youtube.com/oracle/"
+target="_blank"
+aria-label="Watch Oracle on YouTube"
+>
+<span>YouTube</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</footer>
+<!-- /SU02v1 -->
+<!-- END: oWidget_C/_Raw-Text/Display -->
+<!-- /U10v0 -->
+</div>
+<!-- Container/Display Start -->
+<!-- _Raw-Text -->
+<!-- www-us EndBodyAdminContainer -->
+<!-- Start SiteCatalyst code -->
+<script language="JavaScript" src="https://www.oracle.com/us/assets/metrics/ora_ocom.js"></script>
+<!-- End SiteCatalyst code -->
+<!-- www-us EndBodyAdminContainer -->
+<!-- / _Raw-Text -->
+<!-- Container/Display end -->
+</body>
+</html>
+

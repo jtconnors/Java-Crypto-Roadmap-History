@@ -1,0 +1,20 @@
+{
+  "as_of": "2026-11-25",
+  "roadmap_last_updated": "2026-11-05",
+  "sheets": {
+    "Released": {
+      "rows": 70,
+      "unique_ids": 70,
+      "table": "ReleasedChanges",
+      "hyperlinks": 150,
+      "all_cells_match_catalog": true
+    },
+    "Planned": {
+      "rows": 9,
+      "unique_ids": 9,
+      "table": "PlannedChanges",
+      "hyperlinks": 9,
+      "all_cells_match_catalog": true
+    }
+  }
+}
